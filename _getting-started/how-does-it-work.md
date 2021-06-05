@@ -1,26 +1,30 @@
-## How Does it Work?
+## Bagaimana Cara Kerjanya?
 
-Dillinger makes writing in Markdown easy because it hides the stuff happening behind the scenes, but it's worth exploring how the process works in general.
+Dillinger membuat penulisan Markdown mudah karena menyembunyikan hal-hal yang terjadi di belakang layar, tetapi ada baiknya juga Anda menjelajahi bagaimana proses bekerja Markdown secara umum.
 
-When you write in Markdown, the text is stored in a plaintext file that has an `.md` or `.markdown` extension. But then what? How is your Markdown-formatted file converted into HTML or a print-ready document?
+Ketika Anda menulis Markdown, teks disimpan dalam file teks ASCII yang memiliki ekstensi `.md` atau `.markdown`. Selanjutnya bagaimana? Bagaimana file asli Markdown Anda dikonversi menjadi HTML atau dokumen siap cetak?
 
-The short answer is that you need a *Markdown application* capable of processing the Markdown file. There are lots of applications available — everything from simple scripts to desktop applications that look like Microsoft Word. Despite their visual differences, all of the applications do the same thing. Like Dillinger, they all convert Markdown-formatted text to HTML so it can be displayed in web browsers.
+Jawaban singkatnya adalah Anda memerlukan *Aplikasi Markdown* yang mampu memproses file Markdown. Terdapat banyak aplikasi yang tersedia - semuanya mulai dari skrip sederhana hingga aplikasi desktop yang terlihat seperti Microsoft Word. Terlepas dari perbedaan visual mereka, semua aplikasi melakukan hal yang sama. Seperti Dillinger, semuanya mengkonversi teks asli Markdown ke HTML sehingga dapat ditampilkan di browser web.
 
-Markdown applications use something called a *Markdown processor* (also commonly referred to as a "parser" or an "implementation") to take the Markdown-formatted text and output it to HTML format. At that point, your document can be viewed in a web browser or combined with a style sheet and printed. You can see a visual representation of this process below.
+Aplikasi Markdown menggunakan sesuatu yang disebut *pengolah Markdown* (juga biasa disebut sebagai "*parser*" atau "*implementasi*") untuk mengambil teks asli Markdown dan memprosesnya menjadi format HTML. Pada saat itu, dokumen Anda dapat ditampilkan di browser web atau dikombinasikan dengan skrip pengaturan dokumen dan dicetak. Anda dapat melihat representasi visual dari proses ini di bawah ini.
 
 <div class="alert alert-info">
-  <i class="fas fa-info-circle"></i> <strong>Note:</strong> The Markdown application and processor are two separate components. For the sake of brevity, I've combined them into one element ("Markdown App") in the figure below.
+  <i class="fas fa-info-circle"></i> <strong>Catatan:</strong> Aplikasi dan prosesor Markdown adalah dua komponen terpisah. Untuk penyederhanaan, keduanya digabungkan menjadi satu elemen ("Aplikasi Markdown") pada gambar di bawah ini.
 </div>
+
+
 
 <div style="text-align:center; margin:30px 0">
-  <img src="/assets/images/process.png" class="img-fluid" alt="The Markdown Process">
+  <img src="../assets/images/process.png" class="img-fluid" alt="The Markdown Process">
 </div>
 
-To summarize, this is a four-part process:
 
-1. Create a Markdown file using a text editor or a dedicated Markdown application. The file should have an `.md` or `.markdown` extension.
-2. Open the Markdown file in a Markdown application.
-3. Use the Markdown application to convert the Markdown file to an HTML document.
-4. View the HTML file in a web browser or use the Markdown application to convert it to another file format, like PDF.
 
-From your perspective, the process will vary somewhat depending on the application you use. For example, Dillinger essentially combines steps 1-3 into a single, seamless interface — all you have to do is type in the left pane and the rendered output magically appears in the right pane. But if you use other tools, like a text editor with a static website generator, you'll find that the process is much more visible.
+Untuk meringkas, ini adalah proses empat bagian:
+
+1. Buat file Markdown menggunakan editor teks atau aplikasi Markdown khusus. File harus memiliki ekstensi `.md` atau `.markdown`.
+2. Buka file Markdown dalam aplikasi Markdown.
+3. Gunakan aplikasi Markdown untuk mengkonversi file Markdown ke dokumen HTML.
+4. Lihat file HTML di browser web atau gunakan aplikasi Markdown untuk mengonversinya ke format file lain, seperti PDF.
+
+Dari perspektif Anda, prosesnya akan bervariasi agak tergantung pada aplikasi yang Anda gunakan. Misalnya, Dillinger pada dasarnya menggabungkan langkah 1-3 ke dalam satu antarmuka yang mulus — yang harus Anda lakukan adalah mengetik di panel kiri dan setelah diproses secara ajaib muncul di panel kanan. Tetapi jika Anda menggunakan alat bantu lain, seperti editor teks dengan generator situs web statis, Anda akan menemukan bahwa prosesnya jauh lebih terlihat.

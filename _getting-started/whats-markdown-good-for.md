@@ -1,70 +1,77 @@
-## What's Markdown Good For?
+## Markdown Baik Untuk Apa Saja?
 
-Markdown is a fast and easy way to take notes, create content for a website, and produce print-ready documents.
+Markdown adalah cara cepat dan mudah untuk membuat catatan, membuat isi situs web, dan menghasilkan dokumen siap cetak.
 
-It doesn't take long to learn the Markdown syntax, and once you know how to use it, you can write using Markdown just about everywhere. Most people use Markdown to create content for the web, but Markdown is good for formatting everything from email messages to grocery lists.
+Tidak butuh waktu lama untuk mempelajari sintaks Markdown, dan begitu Anda tahu cara menggunakannya, Anda dapat menulis dokumen Markdown hampir di mana saja. Kebanyakan orang menggunakan Markdown untuk membuat dokumen web, tetapi Markdown juga sangat cocok  untuk memformat semua dokumen mulai dari pesan e-mail hingga daftar belanjaan.
 
-Here are some examples of what you can do with Markdown.
+Berikut adalah beberapa contoh apa yang dapat Anda hasilkan dengan dokumen Markdown.
 
-### Websites
+### Situs Web
 
-Markdown was designed for the web, so it should come as no surprise that there are plenty of applications specifically designed for creating website content.
+Markdown dirancang untuk web, jadi seharusnya tidak mengherankan bahwa banyak aplikasi yang dirancang khusus untuk membuat konten situs web mendukung Markdown.
 
-If you're looking for the simplest possible way to create a website with Markdown files, check out [blot.im](https://blot.im) and [smallvictori.es](https://smallvictori.es). After you sign up for one of these services, they create a Dropbox folder on your computer. Just drag and drop your Markdown files into the folder and — poof! — they're on your website. It couldn't be easier.
+Jika Anda mencari cara paling sederhana untuk membuat isi situs web dengan file Markdown, lihat [blot.im](https://blot.im)[^1] dan [smallvictori.es](https://smallvictori.es)[^2]. Setelah Anda mendaftar ke salah satu layanan ini (menggunakan akun Dropbox), mereka membuat folder di akun Dropbox Anda. Cukup seret dan letakkan file-file Markdown Anda ke dalam folder tersebut dan - blum! - mereka ada di situs web Anda. Tidak ada yang  lebih mudah daripada cara ini!
 
-If you're familiar with HTML, CSS, and version control, check out [Jekyll](/tools/jekyll/), a popular static site generator that takes Markdown files and builds an HTML website. One advantage to this approach is that [GitHub Pages](/tools/github-pages/) provides free hosting for Jekyll-generated websites. If Jekyll isn't your cup of tea, just pick one of the [many other static site generators available](https://www.staticgen.com/).
+[^1]: **blot.im** menarik biaya pendaftar sebesar `$4` per bulan. (Catatan Sahid per 4 Juni 2021)
+[^2]: **smallvictori.es** sudah tidak dapat menerima pendaftaran, karena akan ditutup. (Catatan Sahid per 4 Juni 2021)
+
+Jika Anda terbiasa dengan HTML, CSS, dan kontrol versi, lihat [Jekyll](/tools/jekyll/), generator situs statis populer yang mengambil dokumen Markdown dan membangun situs web dengan menghasilkan file-file HTML dari file-file Markdown tersebut. Salah satu keuntungan pendekatan ini adalah bahwa halaman [GitHub](/tools/github-pages/) menyediakan *hosting* gratis untuk situs web yang dihasilkan **Jekyll**. Jika Jekyll bukan pilihan favorit Anda, cukup pilih salah satu di antara [banyak generator situs statis lainnya yang tersedia](https://www.staticgen.com/).
 
 <div class="alert alert-info">
-  <i class="fas fa-info-circle"></i> <strong>Note:</strong> I used Jekyll to create the <i>Markdown Guide</i>. You can view the source code on <a href="https://github.com/mattcone/markdown-guide">GitHub</a>.
+  <i class="fas fas fa-info-circle"></i> <strong>Catatan:</strong> Situs <i>Panduan Markdown</i> ini juga dihasilkan dari file-file Markdown menggunakan Jekyll. Anda dapat melihat file-file Markdown aslinya di <a href="https://github.com/mattcone/markdown-guide">GitHub</a>.
 </div>
 
-If you'd like to use a content management system (CMS) to power your website, take a look at [Ghost](/tools/ghost/). It's a free and open-source blogging platform with a nice Markdown editor. If you're a WordPress user, you'll be happy to know there's [Markdown support](https://en.support.wordpress.com/markdown/) for websites hosted on WordPress.com. Self-hosted WordPress sites can use the [Jetpack plugin](https://jetpack.com/support/markdown/).
+Jika Anda ingin menggunakan sistem manajemen konten (CMS) untuk memberi kekuatan pada situs web Anda, lihatlah [Ghost](/tools/ghost/). Ini adalah *platform blogging* gratis dan *open-source* dengan editor Markdown yang bagus. Jika Anda pengguna **WordPress**, Anda akan senang mengetahui adanya [dukungan Markdown](https://en.support.wordpress.com/markdown/) untuk situs web yang di-*hosting* di **WordPress.com**. Situs WordPress yang di-*hosting* tersebut juga dapat menggunakan [plugin Jetpack](https://jetpack.com/support/markdown/).
 
-### Documents
+### Dokumen
 
-Markdown doesn't have all the bells and whistles of word processors like Microsoft Word, but it's good enough for creating basic documents like assignments and letters. You can use a Markdown document authoring application to create and export Markdown-formatted documents to PDF or HTML file format. The PDF part is key, because once you have a PDF document, you can do anything with it — print it, email it, or upload it to a website.
+Markdown tidak memiliki semua lonceng dan peluit pengolah kata seperti Microsoft Word, tetapi cukup baik untuk membuat dokumen dasar seperti tugas dan surat. Anda dapat menggunakan aplikasi penulisan dokumen Markdown untuk membuat dan mengekspor dokumen Markdown ke format file PDF atau HTML. Bagian PDF adalah kunci, karena setelah Anda memiliki dokumen PDF, Anda dapat melakukan apa saja — mencetaknya, mengirimkan lewat email, atau mengunggahnya ke situs web.
 
-Here are some Markdown document authoring applications I recommend:
+Berikut adalah daftar sebagian kecil aplikasi penulisan dokumen Markdown yang dapat Anda pilih (Mintalah bantuan **Google** untuk menemukan daftar yang lebih panjang aplikasi Markdown.):
 
-- **Mac:** [MacDown](/tools/macdown/), [iA Writer](/tools/ia-writer/), or [Marked](https://marked2app.com/)
+- **Mac:** [MacDown](/tools/macdown/), [iA Writer](/tools/ia-writer/), atau [Marked](https://marked2app.com/)
 - **iOS / Android:** [iA Writer](/tools/ia-writer/)
-- **Windows:** [ghostwriter](https://wereturtle.github.io/ghostwriter/) or [Markdown Monster](https://markdownmonster.west-wind.com/)
-- **Linux:** [ReText](https://github.com/retext-project/retext) or [ghostwriter](https://wereturtle.github.io/ghostwriter/)
-- **Web:** [Dillinger](/tools/dillinger/) or [StackEdit](/tools/stackedit/)
+- **Windows:** [ghostwriter](https://wereturtle.github.io/ghostwriter/), [Typora](https://typora.io) atau [Markdown Monster](https://markdownmonster.west-wind.com/)
+- **Linux:** [ReText](https://github.com/retext-project/retext) atau [ghostwriter](https://wereturtle.github.io/ghostwriter/)
+- **Web:** [Dillinger](/tools/dillinger/) atau [StackEdit](/tools/stackedit/)
 
 <div class="alert alert-success">
-  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> <a href="https://ia.net/writer/templates/">iA Writer</a> provides templates for previewing, printing, and exporting Markdown-formatted documents. For example, the "Academic – MLA Style" template indents paragraphs and adds double sentence spacing.
+  <i class="fas fas fa-lightbulb"></i> <strong>Tip:</strong> <a href="https://ia.net/writer/templates/">iA Writer</a> menyediakan templat untuk mempratinjau, mencetak, dan mengekspor dokumen berformat Markdown. Misalnya, cetakan naskah "Academic – MLA Style" mengindentasi paragraf dan menambahkan penspasian kalimat ganda.
 </div>
 
-### Notes
+### Catatan
 
-In nearly every way, Markdown is the ideal syntax for taking notes. Sadly, [Evernote](https://evernote.com/) and [OneNote](https://www.onenote.com/), two of the most popular note applications, don't currently support Markdown. The good news is that several other note applications *do* support Markdown:
+Dalam hampir semua hal, Markdown adalah sintaks yang ideal untuk membuat catatan. Sayangnya, [Evernote](https://evernote.com/) dan [OneNote](https://www.onenote.com/), dua aplikasi catatan paling populer, saat ini tidak mendukung Markdown. Kabar baiknya adalah bahwa beberapa aplikasi catatan lainnya sudah mendukung Markdown:
 
-- [Simplenote](/tools/simplenote/) is a free, barebones note-taking application available for every platform.
-- [Notable](/tools/notable/) is a note-taking application that runs on a variety of platforms.
-- [Bear](/tools/bear/) is an Evernote-like application available for Mac and iOS devices. It doesn't exclusively use Markdown by default, but you can enable Markdown compatibility mode.
-- [Boostnote](/tools/boostnote/) bills itself as an "open source note-taking app designed for programmers."
+- [Simplenote](/tools/simplenote/) adalah aplikasi untuk membuat catatan andalan yang gratis dan tersedia untuk setiap *platform*.
+- [Terkenal](/tools/notable/) adalah aplikasi membuat catatan yang dapat berjalan di berbagai platform.
+- [Bear](/tools/bear/) adalah aplikasi mirip Evernote yang tersedia untuk perangkat Mac dan iOS. Aplikasi ini tidak secara khusus menggunakan dan mengaktifkan Markdown, tetapi Anda dapat mengaktifkan modus kompatibilitas Markdown.
+- [Boostnote](/tools/boostnote/) menganggap dirinya sebagai "aplikasi pembuat catatan *open source* yang dirancang untuk programer."
 
-If you can't part with Evernote, check out [Marxico](https://marxi.co/), a subscription-based Markdown editor for Evernote, or use [Markdown Here](/tools/markdown-here/) with the Evernote website.
+Jika Anda tidak dapat berpisah dengan Evernote, lihat [Marxico](https://marxi.co/), editor Markdown berbasis langganan untuk Evernote, atau gunakan [Markdown Here](/tools/markdown-here/) dengan situs web Evernote.
 
-### Books
+### Buku
 
-Looking to self-publish a novel? Try [Leanpub](https://leanpub.com/), a service that takes your Markdown-formatted files and turns them into an electronic book. Leanpub outputs your book in PDF, EPUB, and MOBI file format. If you'd like to create paperback copies of your book, you can upload the PDF file to another service such as [Kindle Direct Publishing](https://kdp.amazon.com). To learn more about writing and self-publishing a book using Markdown, read [this blog post](https://medium.com/techspiration-ideas-making-it-happen/how-i-wrote-and-published-my-novel-using-only-open-source-tools-5cdfbd7c00ca).
+Ingin mempublikasikan novel sendiri? Cobalah [Leanpub](https://leanpub.com/), layanan yang mengambil file berformat Markdown Anda dan mengubahnya menjadi buku elektronik. **Leanpub** mengeluarkan buku Anda dalam format file PDF, EPUB, dan MOBI. Jika ingin membuat salinan *paperback* buku, Anda dapat mengunggah file PDF ke layanan lain seperti [Kindle Direct Publishing](https://kdp.amazon.com). Untuk mempelajari selengkapnya tentang menulis dan menerbitkan sendiri buku menggunakan Markdown, baca [posting blog ini](https://medium.com/techspiration-ideas-making-it-happen/how-i-wrote-and-published-my-novel-using-only-open-source-tools-5cdfbd7c00ca).
 
-### Presentations
+### Presentasi
 
-Believe it or not, you can generate presentations from Markdown-formatted files. Creating presentations in Markdown takes a little getting used to, but once you get the hang of it, it's a lot faster and easier than using an application like PowerPoint or Keynote. [Remark](https://remarkjs.com) ([GitHub project](https://github.com/gnab/remark)) is a popular browser-based Markdown slideshow tool, as is [Cleaver](https://jdan.github.io/cleaver/) ([GitHub project](https://github.com/jdan/cleaver)). If you use a Mac and would prefer to use an application, check out [Deckset](https://www.decksetapp.com/) or [Marked](https://marked2app.com/).
+Percaya atau tidak, Anda dapat membuat presentasi dari file berformat Markdown. Membuat presentasi di Markdown membutuhkan sedikit membiasakan diri, tetapi begitu Anda sudah terbiasa, akan jauh lebih cepat dan lebih mudah daripada menggunakan aplikasi seperti **PowerPoint** atau **Keynote**. [Remark](Https://remarkjs.com) ([Proyek GitHub](https://github.com/gnab/remark)) adalah alat tayangan slide Markdown berbasis *browser* yang populer, seperti halnya [Cleaver](https://jdan.github.io/cleaver/) ([Proyek GitHub](https://github.com/jdan/cleaver)) dan [Marp](https://marp.app/) ([proyek GitHub](https://github.com/marp-team/marp)). Jika Anda menggunakan Mac dan lebih suka menggunakan aplikasi, lihat [Deckset](https://www.decksetapp.com/), [Hyperdeck](https://hyperdeck.io/), atau [Ditandai](https://marked2app.com/).
 
 ### Email
 
-If you send a lot of email and you're tired of the formatting controls available on most email provider websites, you'll be happy to learn there's an easy way to write email messages using Markdown. [Markdown Here](/tools/markdown-here/) is a free and open-source browser extension that converts Markdown-formatted text into HTML that's ready to send.
+Jika Anda mengirim banyak email dan bosan dengan kontrol pemformatan yang tersedia di sebagian besar situs web penyedia email, Anda akan senang hati mengetahui cara mudah menulis pesan email menggunakan Markdown. [Markdown Here](/tools/markdown-here/) adalah ekstensi *browser* gratis dan *open-source* yang mengonversi teks berformat Markdown menjadi HTML yang siap dikirim.
 
-### Documentation
+### Kolaborasi
 
-Markdown is a natural fit for technical documentation. Companies like GitHub are increasingly switching to Markdown for their documentation — check out their [blog post](https://github.com/blog/1939-how-github-uses-github-to-document-github) about how they migrated their Markdown-formatted documentation to [Jekyll](/tools/jekyll/). If you write documentation for a product or service, take a look at these handy tools:
+Aplikasi kolaborasi dan pesan tim adalah cara populer untuk berkomunikasi dengan rekan kerja dan teman di tempat kerja dan rumah. Aplikasi ini tidak menggunakan semua fitur Markdown, tetapi fitur yang mereka sediakan cukup berguna. Misalnya, kemampuan untuk menebalkan dan mencetak miring teks tanpa menggunakan antarmuka WYSIWYG cukup berguna. [Slack](/tools/slack/), [Discord](/tools/discord/), dan [Mattermost](/tools/mattermost/) adalah semua aplikasi kolaborasi yang baik.
 
-- [Read the Docs](https://readthedocs.org) can generate a documentation website from your open source Markdown files. Just connect your GitHub repository to their service and push — Read the Docs does the rest. They also have a [service for commercial entities](https://readthedocs.com/).
-- [MkDocs](/tools/mkdocs/) is a fast and simple static site generator that's geared towards building project documentation. Documentation source files are written in Markdown and configured with a single YAML configuration file. MkDocs has several [built in themes](https://www.mkdocs.org/user-guide/styling-your-docs/), including a port of the [Read the Docs](https://readthedocs.org/) documentation theme for use with MkDocs. One of the newest themes is [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).
-- [Docusaurus](/tools/docusaurus/) is a static site generator designed exclusively for creating documentation websites. It supports translations, search, and versioning.
-- [VuePress](https://vuepress.vuejs.org/) is a static site generator powered by [Vue](https://vuejs.org/) and optimized for writing technical documentation.
-- [Jekyll](/tools/jekyll/) was mentioned earlier in the section on websites, but it's also a good option for generating a documentation website from Markdown files. If you go this route, be sure to check out the [Jekyll documentation theme](https://idratherbewriting.com/documentation-theme-jekyll/).
+### Dokumentasi
+
+Markdown sangat cocok untuk dokumentasi teknis. Perusahaan seperti **GitHub** semakin beralih ke Markdown untuk dokumentasi mereka - lihat [posting blog](https://github.com/blog/1939-how-github-uses-github-to-document-github) mereka tentang bagaimana mereka memigrasikan dokumentasi berformat Markdown mereka ke [Jekyll](/tools/jekyll/). Jika Anda menulis dokumentasi untuk produk atau layanan, lihat alat praktis ini:
+
+- [Read the Docs](https://readthedocs.org) dapat menghasilkan situs web dokumentasi dari file-file Markdown asli Anda. Cukup hubungkan repositori GitHub Anda ke layanan mereka dan dorong ke sana - Baca dokumentasinya untuk panduan selengkapnya. Mereka juga memiliki [layanan untuk entitas komersial](https://readthedocs.com/).
+- [MkDocs](/tools/mkdocs/) adalah generator situs statis yang cepat dan sederhana yang diarahkan untuk membangun dokumentasi proyek. File sumber dokumentasi ditulis dalam format Markdown dan diatur menggunakan satu file konfigurasi **YAML**. **MkDocs** memiliki beberapa [tema bawaan](https://www.mkdocs.org/user-guide/styling-your-docs/), termasuk turunan dari tema dokumentasi [Read the Docs](https://readthedocs.org/) untuk digunakan dengan MkDocs. Salah satu tema terbaru adalah [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).
+- [Docusaurus](/tools/docusaurus/) adalah generator situs statis yang dirancang khusus untuk membuat situs web dokumentasi. Ini mendukung terjemahan, pencarian, dan pembuatan versi.
+- [VuePress](https://vuepress.vuejs.org/) adalah generator situs statis yang didukung oleh [Vue](https://vuejs.org/) dan dioptimalkan untuk menulis dokumentasi teknis.
+- [Jekyll](/tools/jekyll/) yang disebutkan sebelumnya di bagian di **Situs Web**, tetapi juga merupakan opsi yang baik untuk membuat situs web dokumentasi dari file Markdown. Jika Anda tertarik menggunakannnya, pastikan untuk memeriksa [tema dokumentasi Jekyll](https://idratherbewriting.com/documentation-theme-jekyll/).

@@ -1,9 +1,9 @@
-## Kicking the Tires
+## Melangkah Lebih Cepat
 
-The best way to get started with Markdown is to use it. That's easier than ever before thanks to a variety of free tools.
+Cara terbaik untuk memulai dengan Markdown adalah dengan menggunakannya. Hail ini dapat dilakukan dengan lebih mudah dari sebelumnya berkat berbagai alat bantu gratis.
 
-You don't even need to download anything. There are several online Markdown editors that you can use to try writing in Markdown. [Dillinger](https://dillinger.io/) is one of the best online Markdown editors. Just open the site and start typing in the left pane. A preview of the rendered document appears in the right pane.
+Anda bahkan tidak perlu mengunduh apa pun. Terdapat beberapa editor Markdown *online* yang dapat Anda gunakan untuk mencoba menulis di Markdown. [Dillinger](https://dillinger.io/) adalah salah satu editor Markdown online terbaik. Cukup buka situs tersebut dan mulailah mengetik di panel kiri. Pratinjau dokumen yang diproses akan muncul di panel kanan.
 
 <img src="/assets/images/dillinger.png" class="img-fluid" alt="Dillinger Markdown editor">
 
-You'll probably want to keep the Dillinger website open as you read through this guide. That way you can try the syntax as you learn about it. After you've become familiar with Markdown, you may want to use a Markdown application that can be installed on your desktop computer or mobile device.
+Anda mungkin ingin tetap membuka situs web Dillinger sambil membaca panduan ini. Dengan demikian Anda dapat mencoba langsung setiap sintaks yang sedang Anda pelajari. Setelah terbiasa dengan Markdown, Anda mungkin ingin menggunakan aplikasi Markdown yang dapat diinstal di komputer desktop atau perangkat seluler Anda.

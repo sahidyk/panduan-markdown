@@ -1,8 +1,8 @@
-## Additional Resources
+## Sumber-sumber Tambahan
 
-There are lots of resources you can use to learn Markdown. Here are some other introductory resources:
+Terdapat banyak sumber informasi di Internet dan rujukan untuk belajar Markdown. Berikut adalah daftar terbatas sumber-sumber tersebut.
 
-- [John Gruber's Markdown documentation](https://daringfireball.net/projects/markdown/). The original guide written by the creator of Markdown.
-- [Markdown Tutorial](https://www.markdowntutorial.com/). An open source website that allows you to try Markdown in your web browser.
-- [Awesome Markdown](https://github.com/mundimark/awesome-markdown). A list of Markdown tools and learning resources.
-- [Typesetting Markdown](https://dave.autonoma.ca/blog/2019/05/22/typesetting-markdown-part-1). A multi-part series that describes an ecosystem for typesetting Markdown documents using [pandoc](https://pandoc.org/) and [ConTeXt](https://www.contextgarden.net/).
+- [Dokumentasi Markdown John Gruber](https://daringfireball.net/projects/markdown/). Panduan asli yang ditulis oleh pembuat Markdown.
+- [Tutorial Markdown](https://www.markdowntutorial.com/). Sebuah situs sumber terbuka yang memungkinkan Anda mencoba Markdown di *browser* Internet Anda.
+- [Markdown Keren](https://github.com/mundimark/awesome-markdown). Daftar alat bantu dan sumber belajar Markdown.
+- [Typesetting Markdown](https://dave.autonoma.ca/blog/2019/05/22/typesetting-markdown-part-1). Suatu serial (informasi rutin) yang menjelaskan ekosistem untuk mengolah dokumen Markdown menggunakan [pandoc](https://pandoc.org/) dan [ConTeXt](https://www.contextgarden.net/).

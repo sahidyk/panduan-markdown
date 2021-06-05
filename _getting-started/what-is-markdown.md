@@ -1,17 +1,17 @@
-## What is Markdown?
+## Apakah Markdown?
 
-Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Created by [John Gruber](https://daringfireball.net/projects/markdown/) in 2004, Markdown is now one of the world's most popular markup languages.
+Markdown adalah bahasa markup ringan yang dapat Anda gunakan untuk menambahkan elemen pemformatan ke dokumen teks biasa. Dibuat oleh [John Gruber](https://daringfireball.net/projects/markdown/) pada tahun 2004, Markdown sekarang menjadi salah satu bahasa markup paling populer di dunia.
 
-Using Markdown is different than using a [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) editor. In an application like Microsoft Word, you click buttons to format words and phrases, and the changes are visible immediately. Markdown isn't like that. When you create a Markdown-formatted file, you add Markdown syntax to the text to indicate which words and phrases should look different.
+Menggunakan Markdown berbeda dengan menggunakan editor [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG). Dalam aplikasi seperti Microsoft Word, Anda mengklik tombol untuk memformat tulisan dan tampilan dokumen, dan perubahan langsung terlihat. Markdown tidak seperti itu. Ketika Anda membuat file berformat Markdown, Anda menambahkan sintaks Markdown ke teks untuk menunjukkan tulisan dan bagian dokumen mana yang akan terlihat berbeda.
 
-For instance, to denote a heading, you add a number sign before it (e.g., `# Heading One`). Or to make a phrase bold, you add two asterisks before and after it (e.g., `**this text is bold**`). It may take a while to get used to seeing Markdown syntax in your text, especially if you're accustomed to WYSIWYG applications. The screenshot below shows a Markdown file displayed in the [Atom text editor](https://atom.io).
+Misalnya, untuk menunjukkan judul, Anda menambahkan tanda `#` sebelum teks judul (misalnya, `# Sintaks Markdown`). Atau, untuk membuat tulisan tebal, Anda menambahkan dua tanda bintang sebelum dan sesudahnya (misalnya, `**teks ini tebal**`). Mungkin perlu waktu untuk membiasakan diri melihat sintaks Markdown dalam teks Anda, terutama jika Anda terbiasa dengan aplikasi WYSIWYG. Tangkapan layar di bawah ini memperlihatkan file Markdown yang ditampilkan di editor khusus Markdown [Typora](https://typora.io).
 
 <div style="text-align:center; margin:30px 0">
-  <img src="/assets/images/atom.png" class="img-fluid" alt="Markdown file in the Atom text editor">
+  <img src="../assets/images/typora.png" class="img-fluid" alt="Berkas Markdown editor teks Typora">
 </div>
 
-You can add Markdown formatting elements to a plaintext file using a text editor application. Or you can use one of the many Markdown applications for macOS, Windows, Linux, iOS, and Android operating systems. There are also several web-based applications specifically designed for writing in Markdown.
+Anda dapat menambahkan elemen pemformatan Markdown ke file teks ASCII menggunakan aplikasi editor teks. Atau, Anda dapat menggunakan salah satu dari banyak aplikasi Markdown untuk sistem operasi macOS, Windows, Linux, iOS, dan Android. Terdapat juga beberapa aplikasi berbasis web yang dirancang khusus untuk menulis file Markdown.
 
-Depending on the application you use, you may not be able to preview the formatted document in real time. But that's okay. [According to Gruber](https://daringfireball.net/projects/markdown/), Markdown syntax is designed to be readable and unobtrusive, so the text in Markdown files can be read even if it isn't rendered.
+Bergantung pada aplikasi yang Anda gunakan, Anda mungkin tidak dapat mem-pratinjau dokumen yang diformat secara langsung. Hal itu tidak mengapa, karena menurut  [Gruber] (https://daringfireball.net/projects/markdown/), sintaks Markdown dirancang agar dapat dibaca dan tidak mengganggu, sehingga teks dalam file asli Markdown tetap dapat dibaca meskipun belum diproses.
 
-> The overriding design goal for Markdown’s formatting syntax is to make it as readable as possible. The idea is that a Markdown-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instructions.
+> Tujuan Markdown adalah membuat dokumen yang memuat sintak untuk memformatnya, namun naskah aslinya tetap terbaca semaksimal mungkin. Ide dasarnya adalah bahwa dokumen Markdown harus dapat diterbitkan dari naskah aslinya apa adanya (tanpa diubah sedikitpun), sebagai teks biasa, tanpa terlihat seperti telah ditamabah dengan tag atau perintah-perintah pemformatan.
