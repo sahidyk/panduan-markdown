@@ -1,17 +1,17 @@
 # Possible availability statuses for Markdown features for tools:
 
 y:
-  name: "Yes"
+  name: "Ya"
   class: table-success
 
 p:
-  name: "Partial"
+  name: "Sebagian"
   class: table-warning
 
 n:
-  name: "No"
+  name: "Tidak"
   class: table-danger
 
 u:
-  name: "Unknown"
+  name: "Tidak diketahui"
   class: table-default

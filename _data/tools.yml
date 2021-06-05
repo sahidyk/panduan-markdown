@@ -2,101 +2,101 @@
 # The fields are:
 
 headings:
-  name: Headings
+  name: Judul
   link: /basic-syntax#headings
 
 paragraphs:
-  name: Paragraphs
+  name: Paragraf
   link: /basic-syntax/#paragraphs-1
 
 line-breaks:
-  name: Line Breaks
+  name: Ganti Baris
   link: /basic-syntax/#line-breaks
 
 bold:
-  name: Bold
+  name: Tulisan Tebal
   link: /basic-syntax#bold
 
 italic:
-  name: Italic
+  name: Tulisan Miring
   link: /basic-syntax#italic
 
 blockquotes:
-  name: Blockquotes
+  name: Kutipan
   link: /basic-syntax#blockquotes-1
 
 ordered-lists:
-  name: Ordered Lists
+  name: Daftar Bernomor
   link: /basic-syntax#ordered-lists
 
 unordered-lists:
-  name: Unordered Lists
+  name: Daftar Tanpa Nomor
   link: /basic-syntax#unordered-lists
 
 code:
-  name: Code
+  name: Kode/Perintah
   link: /basic-syntax#code
 
 horizontal-rules:
-  name: Horizontal Rules
+  name: Garis Mendatar
   link: /basic-syntax/#horizontal-rules
 
 links:
-  name: Links
+  name: Tautan (Rujukan)
   link: /basic-syntax/#links
 
 images:
-  name: Images
+  name: Gambar
   link: /basic-syntax/#images-1
 
 tables:
-  name: Tables
+  name: Tabel
   link: /extended-syntax/#tables
 
 fenced-code-blocks:
-  name: Fenced Code Blocks
+  name: Blok Kode/Program
   link: /extended-syntax/#fenced-code-blocks
 
 syntax-highlighting:
-  name: Syntax Highlighting
+  name: Penyorotan Sintaks
   link: /extended-syntax/#syntax-highlighting
 
 footnotes:
-  name: Footnotes
+  name: Catatan Kaki
   link: /extended-syntax/#footnotes
 
 heading-ids:
-  name: Heading IDs
+  name: Nama (ID) Judul
   link: /extended-syntax/#heading-ids
 
 definition-lists:
-  name: Definition Lists
+  name: Daftar Istilah
   link: /extended-syntax/#definition-lists
 
 strikethrough:
-  name: Strikethrough
+  name: Tulisan Dicoret
   link: /extended-syntax/#strikethrough
 
 task-lists:
-  name: Task Lists
+  name: Daftar Tugas
   link: /extended-syntax/#task-lists
 
 emoji-cp:
-  name: Emoji (copy and paste)
+  name: Emoji/Ikon emosi (salin dan tempel)
   link: /extended-syntax/#copying-and-pasting-emoji
 
 emoji-sc:
-  name: Emoji (shortcodes)
+  name: Emoji/Ikon emosi (kode)
   link: /extended-syntax/#using-emoji-shortcodes
 
 auto-url-linking:
-  name: Automatic URL Linking
+  name: Tautan/Rujukan URL Otomatis
   link: /extended-syntax/#automatic-url-linking
 
 disabling-auto-url:
-  name: Disabling Automatic URL Linking
+  name: Menon-aktifkan Tautan/Rujukan URL
   link: /extended-syntax/#disabling-automatic-url-linking
 
 html:
-  name: HTML
+  name: Perintah/tag HTML
   link: /basic-syntax/#html
