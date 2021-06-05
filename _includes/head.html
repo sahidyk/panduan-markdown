@@ -1,6 +1,5 @@
 <head>
   {% if jekyll.environment == "production" %}
-  <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102240749-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -15,12 +14,11 @@
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
   <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title == 'Home' %}Markdown Guide{% elsif page.title == 'Get the Book' %}Book | Markdown Guide{% else %}{{ page.title }}{% if page.url contains 'tools' and page.title != 'Tools' %} Markdown Reference{% endif %} | Markdown Guide{% endif %}</title>
+  <title>{% if page.title == 'Home' %}Panduan Markdown{% elsif page.title == 'Get the Book' %}Buku | Panduan Markdown{% else %}{{ page.title }}{% if page.url contains 'tools' and page.title != 'Tools' %} Referensi Markdown{% endif %} | Panduan Markdown{% endif %}</title>
 
-  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %} A free and open-source reference guide that explains how to use Markdown.{% endif %}">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %} Panduan referensi naskah asli terbuka gratis yang menjelaskan cara menggunakan Markdown.{% endif %}">
   <meta name="twitter:card" content="summary" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
