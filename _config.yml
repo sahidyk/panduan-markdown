@@ -2,7 +2,7 @@ title: "Panduan Markdown"
 url: https://www.markdownguide.org # site url
 baseurl: "" # apply repo name if use it under gh-pages branch
 
-repo: https://github.com/mattcone/markdown-guide
+repo: https://github.com/sahidyk/panduan-markdown
 comments: false
 
 plugins:
@@ -44,5 +44,3 @@ kramdown:
   toc_levels:     1..3
 
 exclude: ["vendor", "Gemfile", "Gemfile.lock", "README.md", "LICENSE.txt", "Rakefile", "netlify.toml"]
-
-theme: jekyll-theme-cayman
