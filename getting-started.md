@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Getting Started
-description: An overview of Markdown, how it works, and what you can do with it.
-last_modified_at: 2020-08-04
+title: Langkah Awal
+description: Sekilah tetang Markdown, cara kerjanya, dan apa yang dapat dilakukan dengannya.
+last_modified_at: 2021-04-25 (terjemahan Indonesia 04-06-2021)
 ---
 
 {% include_relative _getting-started/what-is-markdown.md %}

@@ -1,37 +1,37 @@
 ---
 layout: about
-title: About
-description: Learn all about the Markdown Guide.
+title: Perihal
+description: Penjelasan tentang Panduan Markdown
 ---
 
-## Purpose
+## Tujuan
 
-*The Markdown Guide* is a comprehensive Markdown reference designed for both novices and experts. It was born out of frustration with existing Markdown references that are incomplete, inadequate, or both.
+*[Panduan Markdown](../index.html)* ini adalah referensi Markdown komprehensif yang ditujukan bagi pemula dan mereka yang sudah mahir. Panduan ini dilatarbelangani oleh ketidakpuasan dengan referensi Markdown yang ada, yang tidak lengkap dan tidak memadai. Terjemahan bahasa Indonesia ini dilakukan oleh [Sahid](sahidyk.github.com) dari Panduan Markdown asli berbahasa Inggris.
 
-## Contributing
+## Berkontribusi
 
-This is an open-source project, and your contributions are welcome. The repository is [hosted on GitHub](https://github.com/mattcone/markdown-guide). See the [README](https://github.com/mattcone/markdown-guide/blob/master/README.md) for instructions and guidelines.
+Ini adalah proyek terbuka, dan kontribusi Anda akan diterima dengan senang hati. Repositori ini [disimpan di GitHub](https://github.com/mattcone/markdown-guide). Lihat berkas [README](https://github.com/mattcone/markdown-guide/blob/master/README.md) untuk penjelasan dan petunjuk detil.
 
-## Reporting Issues
+## Pelaporan Masalah 
 
-Find a typo or inaccurate statement? Please [create an issue](https://github.com/mattcone/markdown-guide/issues) in the GitHub project.
+Anda menemukan kesalahan ketik atau pernyataan yang tidak akurat? Silakan laporkan ke pemilik proyek di [GitHub](https://github.com/mattcone/markdown-guide/issues).
 
-## Contacting
+## Menghubungi
 
-Use the [contact form](/contact) to send a message to the maintainer of *The Markdown Guide*.
+Gunakan [formulir kontak](/kontak) untuk mengirim pesan ke penulis asli *Panduan Markdown*.
 
-## Acknowledgements
+## Ucapan Terima Kasih
 
-*The Markdown Guide* is made possible by the support of several individuals and organizations. Thanks to [all who have contributed](https://github.com/mattcone/markdown-guide/graphs/contributors) to this project.
+*Panduan Markdown* diselesaikan dengan dukungan dari banyak individu dan organisasi. Terima kasih kepada [semua yang telah berkontribusi](https://github.com/mattcone/markdown-guide/graphs/contributors) pada proyek ini.
 
-## License
+## Lisensi
 
-The content of this project itself is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/), and the underlying source code used to format and display that content is licensed under the [MIT license](https://github.com/mattcone/markdown-guide/blob/master/LICENSE.txt).
+Seluruh isi Panduan ini diedarkan dengan lisensi [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/), dan semua dokumen asli yang digunakan untuk memformat dan menampilkan isi panduan tersebut diedarkan dengan [lisensi MIT](LISENSI.txt).
 
-## Affiliate Links
+## Tautan Afiliasi
 
-Some links to products on this website use Amazon affiliate links. If you purchase an item through one of these links, I receive a small percentage of the purchase price (around 4-5%).
+Beberapa tautan ke produk (alat bantu) yang ditampilkan di situs web ini menggunakan tautan afiliasi Amazon.com.  Jika Anda membeli item melalui salah satu tautan ini, penulis asli Panduan ini akan menerima sebagian kecil dari harga pembelian (sekitar 4-5%).
 
-Here's the fine print: 
+Berikut informasinya: 
 
-> *The Markdown Guide* is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.
+> *Panduan Markdown* menjadi peserta dalam Program Asosiasi Amazon Services LLC, program periklanan afiliasi yang dirancang untuk menyediakan sarana bagi situs untuk mendapatkan biaya iklan dengan beriklan dan menautkan ke Amazon.com.

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Extended Syntax
-description: Advanced features that build on the basic Markdown syntax.
+title: Sintaks Lanjut
+description: Fitur lanjut yang dikembangkan dari sintaks dasar Markdown.
 last_modified_at: 2020-02-22
 ---
 

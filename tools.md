@@ -1,19 +1,20 @@
 ---
 layout: tools
-title: Tools
-description: Applications and components that support Markdown.
-last_modified_at: 2020-08-03
+title: Alat Bantu
+description: Aplikasi dan komponen yang mendukung peningkatan fitur Markdown
+last_modified_at: 2021-01-05
 ---
 
 <div class="row">
   <div class="col-sm-3" style="padding-top:20px">
     <div class="card" style="width: 16rem; height: 15rem;">
       <div class="card-body">
-        <h4 class="card-title no-anchor" style="margin-top: -20px;"><span class="emoji" style="font-size:30px">👋</span>&nbsp;&nbsp;&nbsp;Howdy!</h4>
-        <p class="card-text">This is the start of a comprehensive Markdown tool directory. Compiling all this will take some time! <a href="https://github.com/mattcone/markdown-guide/wiki/Markdown-tool-directory">Learn how to contribute.</a></p>
+        <h4 class="card-title no-anchor" style="margin-top: -20px;"><span class="emoji" style="font-size:30px">👋</span>&nbsp;&nbsp;&nbsp;Salam!</h4>
+        <p class="card-text">Ini adalah daftar kumpulan alat bantu Markdown yang komprehensif. Butuh waktu lama untuk melengkapi dan memperbarui daftar ini! <a href="https://github.com/mattcone/markdown-guide/wiki/Markdown-tool-directory">Baca bagaimana cara Anda dapat berkontribusi.</a></p>
       </div>
     </div>
   </div>
+
 
   {% for tool in site.tools %}
   <div class="col-sm-3" style="padding-top:20px">

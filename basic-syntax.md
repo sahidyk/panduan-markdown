@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Basic Syntax
-description: The Markdown elements outlined in John Gruber's design document.
-last_modified_at: 2020-12-13
+title: Sintaks Dasar
+description: Elemen-elemen Markdown yang dituliskan di dalam dokumen rancangan John Gruber.
+last_modified_at: 2021-04-21 (Terjemahan Indonesia oleh Sahid 04-06-2021)
 ---
 
 {% include syntax.html type="basic" syntax-id="overview" %}

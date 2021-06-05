@@ -1,7 +1,7 @@
 ---
 layout: book
-title: The Markdown Guide Book
-description: "Learn Markdown in 60 pages. The Markdown Guide book includes everything you need to get started and master Markdown syntax."
+title: Buku Panduan Markdown
+description: "Belajar Markdown dalam 60 halaman. Buku Panduan Markdown ini memuat penjelasan semua informasi yang Anda butuhkan untuk memulai dan menguasai sintaks Markdown."
 ---
 
 <div class="row" style="padding-top: 15px; padding-bottom: 30px">
@@ -13,14 +13,14 @@ description: "Learn Markdown in 60 pages. The Markdown Guide book includes every
     <p class="lead">✔️ &nbsp; Professional quality PDF, MOBI, and EPUB files (DRM-free)</p>
     <p class="lead">✔️ &nbsp; Unlimited free lifetime updates</p>
     <p class="lead">✔️ &nbsp; 100% satisfaction guaranteed</p>
-
+    
     <div class="row" style="padding-top:10px; margin-bottom:55px">
       <div class="col-sm-12">
         <a class="btn btn-success btn-lg" style="margin-right: 20px; margin-top: 5px" href="https://gum.co/markdownguide?wanted=true">Buy now for $9.99</a>
         <a class="btn btn-outline-secondary btn-lg" style="margin-top: 5px" href="/assets/markdown-guide-sample.pdf">Read free sample</a>
       </div>
     </div>
-
+    
     <p class="lead" style="padding-top:0px;"><em>The Markdown Guide</em> is also available on <a href="https://leanpub.com/themarkdownguide">Leanpub</a> and <a href="https://amzn.to/31FMLMA">Amazon</a>.</p>
   </div>
   <div class="col-sm-5"><a href="https://gum.co/markdownguide?wanted=true"><img src="/assets/images/book-cover.jpg" class="img-fluid float-center" style="width: 95%" alt="The Markdown Guide book cover"></a></div>

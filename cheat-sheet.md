@@ -1,104 +1,104 @@
 ---
 layout: default
-title: Markdown Cheat Sheet
-description: A quick reference to the Markdown syntax.
+title: Lembar Contekan Markdown
+description: Panduan ringkas sintaks Markdown.
 last_modified_at: 2020-07-31
 ---
 
-## Overview
+## Informasi Umum
 
-This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can't cover every edge case, so if you need more information about any of these elements, refer to the reference guides for [basic syntax](/basic-syntax) and [extended syntax](/extended-syntax).
+Lembar contekan Markdown ini memberikan gambaran singkat tentang semua elemen sintaks Markdown. Sudah tentu contekan ini tidak mencakup seluruh sintkas Markdown, jadi jika Anda membutuhkan informasi lebih lanjut tentang salah satu elemen Markdown, lihat panduan referensi untuk [sintaks dasar](/basic-syntax) dan [sitakas lanjut](/extended-syntax).
 
-## Basic Syntax
+## Sintaks Dasar
 
-These are the elements outlined in John Gruber's original design document. All Markdown applications support these elements.
+Berikut adalah elemen-elemen yang diuraikan dalam dokumen desain asli John Gruber. Semua aplikasi Markdown mendukung elemen-elemen ini.
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>Element</th>
-      <th>Markdown Syntax</th>
+      <th>Elemen Dokumen</th>
+      <th>Sintaks Markdown</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><a href="/basic-syntax/#headings">Heading</a></td>
-      <td><code># H1<br>
-          ## H2<br>
-          ### H3</code></td>
+      <td><a href="/basic-syntax/#headings">Judul</a></td>
+      <td><code># Judul tingkat 1<br>
+          ## Judul tingkat 2<br>
+          ### Judul tingkat 3</code></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#bold">Bold</a></td>
-      <td><code>**bold text**</code></td>
+      <td><a href="/basic-syntax/#bold">Huruf tebal</a></td>
+      <td><code>**tulisan tebal**</code></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#italic">Italic</a></td>
-      <td><code>*italicized text*</code></td>
+      <td><a href="/basic-syntax/#italic">Tulisan miring</a></td>
+      <td><code>*tulisan miring*</code></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#blockquotes-1">Blockquote</a></td>
-      <td><code>> blockquote</code></td>
+      <td><a href="/basic-syntax/#blockquotes-1">Kutipan</a></td>
+      <td><code>> Teks kutipan</code></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#ordered-lists">Ordered List</a></td>
+      <td><a href="/basic-syntax/#ordered-lists">Daftar Terurut</a></td>
       <td><code>
-        1. First item<br>
-        2. Second item<br>
-        3. Third item<br>
+        1. Butir 1<br>
+        2. Butir 2<br>
+        3. Butir 3<br>
       </code></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#unordered-lists">Unordered List</a></td>
+      <td><a href="/basic-syntax/#unordered-lists">Daftar Tanpa nomor</a></td>
       <td>
         <code>
-          - First item<br>
-          - Second item<br>
-          - Third item<br>
+          - Butir pertama<br>
+          - Butir kedua<br>
+          - Butir ketiga<br>
         </code>
       </td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#code">Code</a></td>
-      <td><code>`code`</code></td>
+      <td><a href="/basic-syntax/#code">Kode/perintah</a></td>
+      <td><code>`kode`</code></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#horizontal-rules">Horizontal Rule</a></td>
+      <td><a href="/basic-syntax/#horizontal-rules">Garis mendatar</a></td>
       <td><code>---</code></td>
     </tr>
     <tr>
       <td><a href="/basic-syntax/#links">Link</a></td>
-      <td><code>[title](https://www.example.com)</code></td>
+      <td><code>[Teks link](https://www.example.com)</code></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#images-1">Image</a></td>
-      <td><code>![alt text](image.jpg)</code></td>
+      <td><a href="/basic-syntax/#images-1">Gambar</a></td>
+      <td><code>![Teks pengganti](image.jpg)</code></td>
     </tr>
   </tbody>
 </table>
 
-## Extended Syntax
+## Sintaks Lanjut
 
-These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
+Elemen-elemen di bawah ini merupakan perluasan sintask dasar dengan menambahkan kemampuan-kemampuan lebih lanjut untuk mendukung dokumen yang lebih kompleks. Tidak semua aplikasi Markdown mendukung sintask tambahan ini. Anda harus membaca dokumen aplikasi yang Anda gunakan dan mencobanya.
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>Element</th>
-      <th>Markdown Syntax</th>
+      <th>Elemen Dokumen</th>
+      <th>Sintaks Markdown</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><a href="/extended-syntax/#tables">Table</a></td>
+      <td><a href="/extended-syntax/#tables">Tabel</a></td>
       <td><code>
-          | Syntax      | Description |<br>
+          | Judul kolom 1      | Judul kolom 2 |<br>
           | ----------- | ----------- |<br>
-          | Header      | Title       |<br>
-          | Paragraph   | Text        |
+          | Isi baris 1 kolom 1      | Isi baris 1 kolom 2        |<br>
+          | Isi baris 2 kolom 1    | Isi baris 2 kolom 2        |
       </code></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#fenced-code-blocks">Fenced Code Block</a></td>
+      <td><a href="/extended-syntax/#fenced-code-blocks">Blok kode/perintah/program</a></td>
       <td><code>```<br>
       {<br>
       &nbsp;&nbsp;"firstName": "John",<br>
@@ -109,39 +109,39 @@ These elements extend the basic syntax by adding additional features. Not all Ma
       </code></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#footnotes">Footnote</a></td>
+      <td><a href="/extended-syntax/#footnotes">Catatan kaki</a></td>
       <td><code>
-        Here's a sentence with a footnote. [^1]<br><br>
-
-        [^1]: This is the footnote.
-      </code></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#heading-ids">Heading ID</a></td>
-      <td><code>### My Great Heading {#custom-id}</code></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#definition-lists">Definition List</a></td>
-      <td><code>
-        term<br>
-        : definition
-      </code></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#strikethrough">Strikethrough</a></td>
-      <td><code>~~The world is flat.~~</code></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#task-lists">Task List</a></td>
-      <td><code>
-        - [x] Write the press release<br>
-        - [ ] Update the website<br>
-        - [ ] Contact the media
-      </code></td>
-    </tr>
-  </tbody>
+        Ini adalah teks yang diberi catatan kaki. [^1]<br><br>
+        [^1]: Keterangan catatan kaki.
+  </code></td>
+</tr>
+<tr>
+  <td><a href="/extended-syntax/#heading-ids">Nama (ID) Judul</a></td>
+  <td><code>### Judul yang diberi nama {#judulID}</code></td>
+</tr>
+<tr>
+  <td><a href="/extended-syntax/#definition-lists">Daftar Istilah/Definisi</a></td>
+  <td><code>
+    istilah<br>
+    : teks penjelasan/pengertian
+  </code></td>
+</tr>
+<tr>
+  <td><a href="/extended-syntax/#strikethrough">Tulisan dicoret</a></td>
+  <td><code>~~Tulisan ini dicoret.~~</code></td>
+</tr>
+<tr>
+  <td><a href="/extended-syntax/#task-lists">Daftar Tugas</a></td>
+  <td><code>
+    - [x] Tugas yang sudah dikerjakan<br>
+    - [ ] Tugas yang belum dikerjakan<br>
+    - [ ] Tugas lain yang belum selesai
+  </code></td>
+</tr>
+ </tbody>
 </table>
 
-## Downloads
+## Unduh
 
-You can <a href="/assets/markdown-cheat-sheet.md" download="markdown-cheat-sheet.md">download this cheat sheet as a Markdown file</a> for use in your Markdown application.
+Anda dapat mengunguh <a href="/assets/markdown-cheat-sheet.md" download="markdown-cheat-sheet.md">berkas lembar contekan Markdown ini</a> untuk dibuka dengan aplikasi Markdown yang Anda gunakan.
+
