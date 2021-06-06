@@ -43,35 +43,3 @@ Sesuai dengan yang dijelaskan, Panduan ini ditulis dengan dan langsung menerapka
 ## Lisensi
 
 Seluruh isi Panduan ini diedarkan dengan lisensi [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/), dan semua dokumen asli yang digunakan untuk memformat dan menampilkan isi panduan tersebut diedarkan dengan [lisensi MIT](LISENSI.txt).
-
-<script>
-// program to check if a number is prime or not
-// take input from the user
-const number = parseInt(prompt("Enter a positive number: "));
-let isPrime = true;
-// check if number is equal to 1
-if (number === 1) {
-    console.log("1 is neither prime nor composite number.");
-}
-// check if number is greater than 1
-else if (number > 1) {
-// looping through 2 to number-1
-    for (let i = 2; i < number; i++) {
-        if (number % i == 0) {
-            isPrime = false;
-            break;
-        }
-    }
-    if (isPrime)// program to display the date and time
-// get date and time
-const date = new Date(2017, 2, 12, 9, 25, 30);
-// get the date as a string
-const n = date.toDateString();
-// get the time as a string
-const time = date.toLocaleTimeString();
-// display date
-console.log('Date: ' + n);
-// display time
-console.log('Time: ' + time);
-</script>
-
