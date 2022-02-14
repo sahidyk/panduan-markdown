@@ -30,4 +30,5 @@ last_modified_at: 2021-04-21 (Terjemahan Indonesia oleh Sahid 04-06-2021)
 {% include syntax.html type="basic" syntax-id="escaping-characters" %}
 
 {% include syntax.html type="basic" syntax-id="html" %}
+
 {% include syntax.html type="basic" syntax-id="mathlatex" %}
