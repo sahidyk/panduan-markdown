@@ -1,5 +1,5 @@
 ---
-title: Menulis Matematika dengan $$\LaTeX$$
+title: Menulis Matematika dengan $\LaTeX$
 syntax-id: mathlatex
 description: "This is how to write mathematics in Markdown using $$\LaTeX$$"
 examples:
@@ -12,12 +12,14 @@ examples:
 
 >Teks matematika dengan $\LaTeX$ dapat ditampilkan dengan mudah di Web Github yang diakses menggunakan Google Chrome atau Microsoft Edge, dengan cara menginstal Ekstensi Chrome [**XHub**](https://github.com/nschloe/xhub). Ekstensi ini juga dapat diinstal ke Microsoft Edge dari situs Ekstensi Google Chrome. Ekstensi XHub menggunakan KaTeX untuk memproses/menampilkan matematika dengan LaTeX. 
 >
->Teks matematika di file Markdown yang disimpan di Github ditulis dengan format $$\int_0^{\infty} \sum_{k=1}^n \binom{n}{k} x^k \ dx $$ untuk *inline* dan
+>Teks matematika di file Markdown yang disimpan di Github ditulis dengan format `$$\int_0^{\infty} \sum_{k=1}^n \binom{n}{k} x^k \ dx $$` untuk *inline* dan
 
 ````
-[
+
+$$
 \int_0^{\infty} \sum_{k=1}^n \binom{n}{k} x^k \ dx 
-]
+$$
+
 ````
 untuk *display*.
 
@@ -25,9 +27,9 @@ Teks matematika di tengah baris: $$\int_0^{\infty} \sum_{k=1}^n \binom{n}{k} x^k
 
 Teks matematika pada baris terpisah:
 
-[
+$$
 \int_0^{\infty} \sum_{k=1}^n \binom{n}{k} x^k \ dx
-]
+$$
 
 > **Tips di atas ternyata gagal ketika file Markdown diakses sebagai blog di Gihub.**
 
@@ -61,6 +63,6 @@ is completely contained in $U$. Let $f: U\to\mathbb{C}$ be a holomorphic functio
 and let $\gamma$ be the circle, oriented counterclockwise, forming the boundary of
 $$D$$. Then for every $a$ in the interior of $D$,
 
-]
+$$
 f(a) = \frac{1}{2\pi i} \oint _{\gamma}\frac{f(z)}{z-a} dz.
-]
+$$
