@@ -27,9 +27,9 @@ Teks matematika di tengah baris: $$\int_0^{\infty} \sum_{k=1}^n \binom{n}{k} x^k
 
 Teks matematika pada baris terpisah:
 
-\[
+[
 \int_0^{\infty} \sum_{k=1}^n \binom{n}{k} x^k \ dx
-\]
+]
 > **Tips di atas ternyata gagal ketika file Markdown diakses sebagai blog di Gihub.**
 
 
