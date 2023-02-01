@@ -1,20 +1,20 @@
 ---
-title: Availability
+title: Ketersediaan
 syntax-id: availability
 ---
 
-Not all Markdown applications support extended syntax elements. You'll need to check whether or not the lightweight markup language your application is using supports the extended syntax elements you want to use. If it doesn't, it may still be possible to enable extensions in your Markdown processor.
+Tidak semua aplikasi Markdown mendukung setiap elemen pada sintaks lanjutan. Anda harus memeriksa apakah bahasa markup ringan  pada aplikasi yang (akan) Anda gunakan mendukung elemen sintaks lanjutan. Jika tidak, mungkin Anda dapat mengaktifkan ekstensi di prosesor Markdown Anda.
 
-### Lightweight Markup Languages
+### Bahasa Markup Ringan
 
-There are several lightweight markup languages that are *supersets* of Markdown. They include Gruber's basic syntax and build upon it by adding additional elements like tables, code blocks, syntax highlighting, URL auto-linking, and footnotes. Many of the most popular Markdown applications use one of the following lightweight markup languages:
+Terdapat beberapa bahasa markup ringan yang merupakan *superset* dari bahasa Markdown. Bahasa tersebut memuat sintaks dasar Gruber dan memperluasnya dengan menambahkan elemen dokumen yang lain seperti tabel, blok kode, penyorotan sintaks, penautan otomatis URL, dan catatan kaki. Banyak aplikasi Markdown paling populer menggunakan salah satu di antara bahasa markup ringan di bawah ini:
 
 - [CommonMark](https://commonmark.org)
 - [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/)
 - [Markdown Extra](https://michelf.ca/projects/php-markdown/extra/)
 - [MultiMarkdown](https://fletcherpenney.net/multimarkdown/)
-- [R Markdown](https://rmarkdown.rstudio.com/)
+- [R Markdown](https://rmarkdown.rstudio.com/).
 
-### Markdown Processors
+### Prosesor Markdown
 
-There are [dozens of Markdown processors](https://github.com/markdown/markdown.github.com/wiki/Implementations) available. Many of them allow you to add extensions that enable extended syntax elements. Check your processor's documentation for more information.
+Terdapat [lusinan prosesor Markdown](https://github.com/markdown/markdown.github.com/wiki/Implementations). Beberapa di antara prosesor tersebut memungkinkan Anda untuk menambahkan ekstensi untuk mengaktifkan elemen-elemen dokumen dengan sintaks lanjut. Silakan periksa dokumentasi prosesor Anda untuk informasi lebih lanjut.

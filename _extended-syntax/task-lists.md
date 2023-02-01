@@ -1,20 +1,20 @@
 ---
-title: Task Lists
+title: Daftar Tugas
 syntax-id: task-lists
 syntax-summary: |
-  - [x] Write the press release
-  - [ ] Update the website
-  - [ ] Contact the media
+  - [x] Tugas yang sudah dikerjakan
+  - [ ] Tugas yang belum dikerjakan
+  - [ ] Tugas lain yang belum selesai
 ---
 
-Task lists allow you to create a list of items with checkboxes. In Markdown applications that support task lists, checkboxes will be displayed next to the content. To create a task list, add dashes (`-`) and brackets with a space (`[ ]`) in front of task list items. To select a checkbox, add an `x` in between the brackets (`[x]`).
+Daftar tugas memungkinkan Anda membuat daftar item dengan kotak centang. Di aplikasi Markdown yang mendukung daftar tugas, kotak centang akan ditampilkan di samping/depan tulisan/teks tugas. Untuk membuat daftar tugas, tambahkan tanda hubungs (`-`) dan tanda kurung siku (`[ ]`) di depan tulisan teks tugas/butir. Untuk memilih butir, tuliskan tanda  `x` di dalam tanda kurung siku (`[x]`).
 
+```markdown
+- [x] Tugas yang sudah dikerjakan
+- [ ] Tugas yang belum dikerjakan
+- [ ] Tugas lain yang belum selesai
 ```
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
-```
 
-The rendered output looks like this:
+Hasil setelah diproses akan terlihat seperti:
 
-<img src="/assets/images/tasklist.png" class="img-fluid" alt="Markdown task list">
+<img src="/assets/images/tasklist.png" class="img-fluid" alt="Daftar tugas di Markdown">

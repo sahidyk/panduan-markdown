@@ -1,8 +1,9 @@
 ---
-title: Overview
+title: Ikhtisar
 syntax-id: overview
 ---
 
-The [basic syntax](/basic-syntax) outlined in John Gruber's original design document added many of the elements needed on a day-to-day basis, but it wasn't enough for some people. That's where extended syntax comes in.
+[Sintaks dasar](/basic-syntax) yang diuraikan dalam dokumen desain asli John Gruber menambahkan banyak elemen dokumen sehari-hari, namun hal itu belum cukup bagi sebagian penulis. Oleh karena itu diperlukan sintaks lanjutan.
 
-Several individuals and organizations took it upon themselves to extend the basic syntax by adding additional elements like tables, code blocks, syntax highlighting, URL auto-linking, and footnotes. These elements can be enabled by using a lightweight markup language that builds upon the basic Markdown syntax, or by adding an extension to a compatible Markdown processor.
+Beberapa individu dan organisasi melakukan sendiri untuk memperluas sintaks dasar dengan menambahkan elemen tambahan seperti tabel, blok kode, penyorotan sintaks, penautan otomatis URL, dan catatan kaki. Elemen-elemen ini dapat diaktifkan dengan menggunakan bahasa markup ringan yang dibangun berdasarkan sintaks dasar Markdown, atau dengan menambahkan ekstensi ke prosesor Markdown yang cocok.
+

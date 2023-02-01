@@ -1,23 +1,28 @@
 ---
-title: Tables
+title: Tabel
 syntax-id: tables
 syntax-summary: |
-  | Syntax | Description |
-  | ----------- | ----------- |
-  | Header | Title |
-  | Paragraph | Text |
+    | Judul kolom 1 | Judul kolom 2 |
+    | ------------- | ------------- |
+    | Isi baris 1 kolom 1 | Isi baris 1 kolom 2 |
+    | Isi baris 2 kolom 1 | Isi baris 2 kolom 2 |
 ---
 
-To add a table, use three or more hyphens (`---`) to create each column's header, and use pipes (`|`) to separate each column. You can optionally add pipes on either end of the table.
+Untuk menghasilkan tabel, gunakan tiga tanda hubung atau lebih (`---`) untuk membuat judul kolom, dan menggunakan garis tegak (`|`) untuk memisahkan setiap kolom. Anda dapat secara opsional menambahkan garis tegak di salah satu ujung tabel.
 
 ```
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+    | Judul kolom 1 | Judul kolom 2 |
+    | ------------- | ------------- |
+    | Isi baris 1 kolom 1 | Isi baris 1 kolom 2 |
+    | Isi baris 2 kolom 1 | Isi baris 2 kolom 2 |
 ```
 
 The rendered output looks like this:
+
+| Judul kolom 1       | Judul kolom 2       |
+| ------------------- | ------------------- |
+| Isi baris 1 kolom 1 | Isi baris 1 kolom 2 |
+| Isi baris 2 kolom 1 | Isi baris 2 kolom 2 |
 
 <table class="table table-bordered">
   <thead>
@@ -56,13 +61,18 @@ Cell widths can vary, as shown below. The rendered output will look the same.
 You can align text in the columns to the left, right, or center by adding a colon (`:`) to the left, right, or on both side of the hyphens within the header row.
 
 ```
-| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
+    |Isi kolom rata kiri | Isi kolom di tengah |Isi kolom rata kanan|
+    | :------------- | :-------------: | ----------:|
+    | Isi baris 1 kolom 1 | Isi baris 1 kolom 2 | Isi baris 1 kolom 3 |
+    | Isi baris 2 kolom 1 | Isi baris 2 kolom 2 | Isi baris 2 kolom 3 |
 ```
 
 The rendered output looks like this:
+
+|Isi kolom rata kiri | Isi kolom di tengah |Isi kolom rata kanan|
+| :------------- | :-------------: | ----------:|
+| Isi baris 1 kolom 1 | Isi baris 1 kolom 2 | Isi baris 1 kolom 3 |
+| Isi baris 2 kolom 1 | Isi baris 2 kolom 2 | Isi baris 2 kolom 3 |
 
 <table class="table table-bordered">
   <thead>
