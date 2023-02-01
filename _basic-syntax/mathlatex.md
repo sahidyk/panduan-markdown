@@ -10,11 +10,9 @@ examples:
     html: "<p>I really like using $\LaTeX$ in Markdown.</p><p>I think I'll use it to format all of my documents from now on.</p>"
 ---
 
-## Menulis Matematika dengan $\LaTeX$
-
 >Teks matematika dengan $\LaTeX$ dapat ditampilkan dengan mudah di Web Github yang diakses menggunakan Google Chrome atau Microsoft Edge, dengan cara menginstal Ekstensi Chrome [**XHub**](https://github.com/nschloe/xhub). Ekstensi ini juga dapat diinstal ke Microsoft Edge dari situs Ekstensi Google Chrome. Ekstensi XHub menggunakan KaTeX untuk memproses/menampilkan matematika dengan LaTeX. 
 >
->Teks matematika di file Markdown yang disimpan di Github ditulis dengan format `$\int_0^{\infty} \sum_{k=1}^n \binom{n}{k} x^k \ dx $` untuk *inline* dan
+>Teks matematika di file Markdown yang disimpan di Github ditulis dengan format ``$\int_0^{\infty} \sum_{k=1}^n \binom{n}{k} x^k \ dx $`` untuk *inline* dan
 
 ````
 [
