@@ -17,18 +17,19 @@ examples:
 >Teks matematika di file Markdown yang disimpan di Github ditulis dengan format `$$\int_0^{\infty} \sum_{k=1}^n \binom{n}{k} x^k \ dx $$` untuk *inline* dan
 
 ````
-```math
+$$
 \int_0^{\infty} \sum_{k=1}^n \binom{n}{k} x^k \ dx 
-```
+$$
 ````
 untuk *display*.
 
 Teks matematika di tengah baris: $$\int_0^{\infty} \sum_{k=1}^n \binom{n}{k} x^k \ dx $$.
 
 Teks matematika pada baris terpisah:
-```math
+
+$$
 \int_0^{\infty} \sum_{k=1}^n \binom{n}{k} x^k \ dx
-```
+$$
 > **Tips di atas ternyata gagal ketika file Markdown diakses sebagai blog di Gihub.**
 
 
