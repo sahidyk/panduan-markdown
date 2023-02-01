@@ -1,132 +1,110 @@
 ---
-title: Headings
+title: Judul dan Subjudul
 syntax-id: headings
 syntax-summary: |
   # H1
   ## H2
   ### H3
-description: "To create a heading, add number signs (`#`) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three (`<h3>`), use three number signs (e.g., `### My Header`)."
+description: "Untuk menuliskan judul atau subjudul digunakan karakter `#` di depan teks judul atau subjudul. Banyaknya tanda `#` menandai tingkat subjudul. Markdown dapat membuat subjudul sampai tingkat 6, namun beberapa aplikasi Markdown hanya mampu membuat subjudul sampai tingkat 4. Tingkat subjudul menentukan besar/ukuran huruf."
 examples:
-  - markdown: "# Heading level 1"
-    html: "<h1>Heading level 1</h1>"
-  - markdown: "## Heading level 2"
-    html: "<h2>Heading level 2</h2>"
-  - markdown: "### Heading level 3"
-    html: "<h3>Heading level 3</h3>"
-  - markdown: "#### Heading level 4"
-    html: "<h4>Heading level 4</h4>"
-  - markdown: "##### Heading level 5"
-    html: "<h5>Heading level 5</h5>"
-  - markdown: "###### Heading level 6"
-    html: "<h6>Heading level 6</h6>"
+  - markdown: "# Judul (Subjudul Tingkat 1)"
+    html: "<h1>Judul (Subjudul Tingkat 1)</h1>"
+  - markdown: "## Subjudul Tingkat 2"
+    html: "<h2>JSubjudul Tingkat 2</h2>"
+  - markdown: "### Subjudul Tingkat 3"
+    html: "<h3>Subjudul Tingkat 3</h3>"
+  - markdown: "#### Subjudul Tingkat 4"
+    html: "<h4>Subjudul Tingkat 4</h4>"
+  - markdown: "##### Subjudul Tingkat 5"
+    html: "<h5>Subjudul Tingkat 5</h5>"
+  - markdown: "###### Subjudul Tingkat 6"
+    html: "<h6>Subjudul Tingkat 6</h6>"
 additional-examples:
-  - name: "Alternative H1 Syntax"
-    description: "Alternatively, on the line below the text, add any number of == characters for heading level 1."
+  - name: "Sintaks Alternatif untuk H1"
+    description: "untuk menuliskan subjudul tingkat 1 dapat menggunakan beberapa karakter `=` di bawah tulisan judul (subjudul tingkat 1)."
     markdown: |
-      Heading level 1
+      Judul (Subjudul Tingkat 1)
       ===============
-    html: "<h1>Heading level 1</h1>"
-  - name: "Alternative H2 Syntax"
-    description: "Alternatively, on the line below the text, add any number of -- characters for heading level 2."
+    html: "<h1>Judul (Subjudul Tingkat 1)</h1>"
+  - name: "Sintaks Alternatif untuk H2"
+    description: "Untuk subjudul tingkat 2 dapat menggunakan karakter -- di bawah tulisan subjudul tingkat 2."
     markdown: |
-      Heading level 2
+      Subjudul Tingkat 2
       ---------------
-    html: "<h2>Heading level 2</h2>"
+    html: "<h2>Subjudul Tingkat 2</h2>"
 ---
 
-To create a heading, add number signs (`#`) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three (`<h3>`), use three number signs (e.g., `### My Header`).
+Untuk menuliskan judul atau subjudul digunakan karakter `#` di depan teks judul atau subjudul. Banyaknya tanda `#` menandai tingkat subjudul. Markdown dapat membuat subjudul sampai tingkat 6, namun beberapa aplikasi Markdown hanya mampu membuat subjudul sampai tingkat 4. Tingkat subjudul menentukan besar/ukuran huruf.
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>Markdown</th>
-      <th>HTML</th>
-      <th>Rendered Output</th>
+      <th>Sintaks Markdown</th>
+      <th>Sintaks HTML</th>
+      <th>Tampilan Teks Hasilnya</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><code class="highlighter-rouge"># Heading level 1</code></td>
-      <td><code class="highlighter-rouge">&lt;h1&gt;Heading level 1&lt;/h1&gt;</code></td>
-      <td><h1 class="no-anchor" data-toc-skip>Heading level 1</h1></td>
+      <td><code class="highlighter-rouge"># Judul (Subjudul Tingkat 1)</code></td>
+      <td><code class="highlighter-rouge">&lt;h1&gt;Judul (Subjudul Tingkat 1)&lt;/h1&gt;</code></td>
+      <td><h1 class="no-anchor" data-toc-skip="">Judul (Subjudul Tingkat 1)</h1></td>
     </tr>
     <tr>
-      <td><code class="highlighter-rouge">## Heading level 2</code></td>
-      <td><code class="highlighter-rouge">&lt;h2&gt;Heading level 2&lt;/h2&gt;</code></td>
-      <td><h2 class="no-anchor" data-toc-skip>Heading level 2</h2></td>
+      <td><code class="highlighter-rouge">## Subjudul Tingkat 2</code></td>
+      <td><code class="highlighter-rouge">&lt;h2&gt;Subjudul Tingkat 2&lt;/h2&gt;</code></td>
+      <td><h2 class="no-anchor" data-toc-skip="">Subjudul Tingkat 2</h2></td>
     </tr>
     <tr>
-      <td><code class="highlighter-rouge">### Heading level 3</code></td>
-      <td><code class="highlighter-rouge">&lt;h3&gt;Heading level 3&lt;/h3&gt;</code></td>
-      <td><h3 class="no-anchor" data-toc-skip>Heading level 3</h3></td>
+      <td><code class="highlighter-rouge">### Subjudul Tingkat 3</code></td>
+      <td><code class="highlighter-rouge">&lt;h3&gt;Subjudul Tingkat 3&lt;/h3&gt;</code></td>
+      <td><h3 class="no-anchor" data-toc-skip="">Subjudul Tingkat 3</h3></td>
     </tr>
     <tr>
-      <td><code class="highlighter-rouge">#### Heading level 4</code></td>
-      <td><code class="highlighter-rouge">&lt;h4&gt;Heading level  4&lt;/h4&gt;</code></td>
-      <td><h4 class="no-anchor">Heading level 4</h4></td>
+      <td><code class="highlighter-rouge">#### Subjudul Tingkat 4</code></td>
+      <td><code class="highlighter-rouge">&lt;h4&gt;Subjudul Tingkat 4&lt;/h4&gt;</code></td>
+      <td><h4 class="no-anchor">Subjudul Tingkat 4</h4></td>
     </tr>
     <tr>
-      <td><code class="highlighter-rouge">##### Heading level 5</code></td>
-      <td><code class="highlighter-rouge">&lt;h5&gt;Heading level 5&lt;/h5&gt;</code></td>
-      <td><h5 class="no-anchor">Heading level 5</h5></td>
+      <td><code class="highlighter-rouge">##### Subjudul Tingkat 5</code></td>
+      <td><code class="highlighter-rouge">&lt;h5&gt;Subjudul Tingkat 5&lt;/h5&gt;</code></td>
+      <td><h5 class="no-anchor">Subjudul Tingkat 5</h5></td>
     </tr>
     <tr>
-      <td><code class="highlighter-rouge">###### Heading level 6</code></td>
-      <td><code class="highlighter-rouge">&lt;h6&gt;Heading level 6&lt;/h6&gt;</code></td>
-      <td><h6 class="no-anchor">Heading level 6</h6></td>
+      <td><code class="highlighter-rouge">###### Subjudul Tingkat 6</code></td>
+      <td><code class="highlighter-rouge">&lt;h6&gt;Subjudul Tingkat 6&lt;/h6&gt;</code></td>
+      <td><h6 class="no-anchor">Subjudul Tingkat 6</h6></td>
     </tr>
   </tbody>
 </table>
 
-### Alternate Syntax
+==Harap diperhatikan, perlu selalu diingat, sebaiknya tanda  `#` harus dipisahkan dengan teks subjudul. Jika tanda `#` tidak dipisah mungkin Anda tidak akan mendapatkan apa yang Anda harapkan!==
 
-Alternatively, on the line below the text, add any number of `==` characters for heading level 1 or `--` characters for heading level 2.
+Tuliskan:
 
-<table class="table table-bordered">
-  <thead class="thead-light">
-    <tr>
-      <th>Markdown</th>
-      <th>HTML</th>
-      <th>Rendered Output</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code class="highlighter-rouge">Heading level 1<br/>===============</code></td>
-      <td><code class="highlighter-rouge">&lt;h1&gt;Heading level 1&lt;/h1&gt;</code></td>
-      <td><h1 class="no-anchor" data-toc-skip>Heading level 1</h1></td>
-    </tr>
-    <tr>
-      <td><code class="highlighter-rouge">Heading level 2<br/>---------------</code></td>
-      <td><code class="highlighter-rouge">&lt;h2&gt;Heading level 2&lt;/h2&gt;</code></td>
-      <td><h2 class="no-anchor" data-toc-skip>Heading level 2</h2></td>
-    </tr>
-  </tbody>
-</table>
+✅ `# Teks Judul `
 
-### Heading Best Practices
+dan jangan menuliskan dengan cara:
 
-Markdown applications don't agree on how to handle a missing space between the number signs (`#`) and the heading name. For compatibility, always put a space between the number signs and the heading name.
+❌ `#Teks Judul.`
+
+Selain menggunakan karakter `#` untuk menuliskan subjudul tingkat 1 dapat menggunakan beberapa karakter `=` di bawah tulisan subjudul, sedangkan untuk subjudul tingkat 2 dapat menggunakan karakter beberapa  `-`.
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>✅&nbsp; Do this</th>
-      <th>❌&nbsp; Don't do this</th>
+      <th>Sintaks Markdown</th>
+      <th>Tampilan Teks Hasilnya</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>
-        <code class="highlighter-rouge">
-          # Here's a Heading<br><br>
-        </code>
-      </td>
-      <td>
-        <code class="highlighter-rouge">
-          #Here's a Heading
-        </code>
-      </td>
+      <td><code class="highlighter-rouge"> Judul (Subjudul Tingkat 1)<br> ===========</code></td>
+      <td><h1 class="no-anchor" data-toc-skip="">Judul (Subjudul Tingkat 1)</h1></td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">Subjudul Tingkat 2<br>---------</code></td>
+      <td><h2 class="no-anchor" data-toc-skip="">Subjudul Tingkat 2</h2></td>
     </tr>
   </tbody>
 </table>

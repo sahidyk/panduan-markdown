@@ -1,7 +1,7 @@
 ---
-title: Overview
+title: Ikhtisar
 syntax-id: overview
 api: "no"
 ---
 
-Nearly all Markdown applications support the basic syntax outlined in John Gruber's original design document. There are minor variations and discrepancies between Markdown processors — those are noted inline wherever possible.
+Hampir semua aplikasi Markdown mendukung sintaks dasar yang diuraikan dalam dokumen desain asli John Gruber. Terdapat variasi kecil dan perbedaan antara prosesor Markdown - informasi tentang hal itu sedapat mungkin disampaikan secara langsung.

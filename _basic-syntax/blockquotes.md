@@ -1,98 +1,121 @@
 ---
-title: Blockquotes
+title: Teks Kutipan
 syntax-id: blockquotes
-syntax-summary: "> blockquote"
-description: "To create a blockquote, add a `>` in front of a paragraph."
+syntax-summary: "> Teks kutipan"
+description: "Untuk menuliskan teks kutipan, awali teks kutipan dengan tanda `>` dan pisahkan dengan spasi."
 examples:
-  - markdown: "> Dorothy followed her through many of the beautiful rooms in  her castle."
-    html: "<blockquote><p>Dorothy followed her through many of the beautiful rooms in her castle.</p></blockquote>"
+  - markdown: "> *Demi Kitab (Al-Qur'an) yang menerangkan. Sesungguhnya Kami menjadikan Al Quran dalam bahasa Arab supaya kamu memahami(nya).*  (Q.S. Az-Zukhruf: 2-3)"
+    html: "<blockquote><p><i>Demi Kitab (Al-Qur'an) yang menerangkan. Sesungguhnya Kami menjadikan Al Quran dalam bahasa Arab supaya kamu memahami(nya)</i>. (Q.S. Az-Zukhruf: 2-3)</p></blockquote>"
 additional-examples:
-  - name: "Blockquotes with Multiple Paragraphs"
-    description: "Blockquotes can contain multiple paragraphs. Add a `>` on the blank lines between the paragraphs."
+  - name: "Kutipan Terdiri Atas Beberapa Paragraf"
+    description: "Untuk menuliskan kutipan yang terdiri atas beberapa paragraf, setiap paragraf diawali dengan tanda `>` dan antar paragraf dipisahkan dengan baris kosong yang diawali dengan tanda `>`."
     markdown: |
-      > Dorothy followed her through many of the beautiful rooms in her castle.
+      > *Wahai orang-orang yang beriman! Janganlah suatu kaum mengolok-olok kaum yang lain (karena) boleh jadi mereka (yang diperolok-olokkan) lebih baik dari mereka (yang mengolok-olok) dan jangan pula perempuan-perempuan (mengolok-olokkan) perempuan lain (karena) boleh jadi perempuan (yang diperolok-olokkan) lebih baik dari perempuan (yang mengolok-olok). Janganlah kamu saling mencela satu sama lain dan janganlah saling memanggil dengan gelar-gelar yang buruk. Seburuk-buruk panggilan adalah (panggilan) yang buruk (fasik) setelah beriman. Dan barangsiapa tidak bertobat, maka mereka itulah orang-orang yang zalim.*  (Q.S 49:11)
       >
-      > The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-    html: "<blockquote><p>Dorothy followed her through many of the beautiful rooms in her castle.</p><p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p></blockquote>"
-  - name: "Nested Blockquotes"
-    description: "Blockquotes can be nested. Add a `>>` in front of the paragraph you want to nest."
+      > *Wahai orang-orang yang beriman! Jauhilah banyak dari prasangka, sesungguhnya sebagian prasangka itu dosa dan janganlah kamu mencari-cari kesalahan orang lain dan janganlah ada di antara kamu yang menggunjing sebagian yang lain. Apakah ada di antara kamu yang suka memakan daging saudaranya yang sudah mati? Tentu kamu merasa jijik. Dan bertakwalah kepada Allah, sesungguhnya Allah Maha Penerima tobat, Maha Penyayang.* (Q.S 49:12)
+    html: "<blockquote><p><i>Wahai orang-orang yang beriman! Janganlah suatu kaum mengolok-olok kaum yang lain (karena) boleh jadi mereka (yang diperolok-olokkan) lebih baik dari mereka (yang mengolok-olok) dan jangan pula perempuan-perempuan (mengolok-olokkan) perempuan lain (karena) boleh jadi perempuan (yang diperolok-olokkan) lebih baik dari perempuan (yang mengolok-olok). Janganlah kamu saling mencela satu sama lain dan janganlah saling memanggil dengan gelar-gelar yang buruk. Seburuk-buruk panggilan adalah (panggilan) yang buruk (fasik) setelah beriman. Dan barangsiapa tidak bertobat, maka mereka itulah orang-orang yang zalim.  (Q.S 49:11)</i></p><p><i>Wahai orang-orang yang beriman! Jauhilah banyak dari prasangka, sesungguhnya sebagian prasangka itu dosa dan janganlah kamu mencari-cari kesalahan orang lain dan janganlah ada di antara kamu yang menggunjing sebagian yang lain. Apakah ada di antara kamu yang suka memakan daging saudaranya yang sudah mati? Tentu kamu merasa jijik. Dan bertakwalah kepada Allah, sesungguhnya Allah Maha Penerima tobat, Maha Penyayang. (Q.S 49:12)</i></p></blockquote>"
+  - name: "Kutipan di dalam Kutipan"
+    description: "Untuk menuliskan kutipan di dalam kutipan digunakan tanda `>>` di dalam kutipan kedua."
     markdown: |
-      > Dorothy followed her through many of the beautiful rooms in her castle.
-      >
-      >> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-    html: "<blockquote><p>Dorothy followed her through many of the beautiful rooms in her castle.</p><blockquote><p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p></blockquote></blockquote>"
-  - name: "Blockquotes with Other Elements"
-    description: "Blockquotes can contain other Markdown formatted elements. Not all elements can be used — you'll need to experiment to see which ones work."
+      > Telah menceritakan kepada kami [Muhammad bin Al Mutsanna], telah menceritakan kepada kami [Yahya], dari [Isma'il] berkata, telah menceritakan kepada saya [Qais], dari [Ibnu Mas'ud radliallahu 'anhu] berkata, Aku mendengar Nabi Shallallahu'alaihiwasallam bersabda: 
+      >> *Tidak boleh iri (dengki) kecuali kepada dua hal. (Yaitu kepada) seorang yang Allah berikan kepadanya harta lalu dia menguasainya dan membelanjakannya di jalan yang haq (benar) dan seorang yang Allah berikan hikmah (ilmu) lalu dia melaksanakannya dan mengajarkannya (kepada orang lain)*. 
+    html: "<blockquote><p>Telah menceritakan kepada kami [Muhammad bin Al Mutsanna], telah menceritakan kepada kami [Yahya], dari [Isma'il] berkata, telah menceritakan kepada saya [Qais], dari [Ibnu Mas'ud radliallahu 'anhu] berkata, Aku mendengar Nabi Shallallahu'alaihiwasallam bersabda: </p><blockquote><p><i>Tidak boleh iri (dengki) kecuali kepada dua hal. (Yaitu kepada) seorang yang Allah berikan kepadanya harta lalu dia menguasainya dan membelanjakannya di jalan yang haq (benar) dan seorang yang Allah berikan hikmah (ilmu) lalu dia melaksanakannya dan mengajarkannya (kepada orang lain).</i></p></blockquote></blockquote>"
+  - name: "Kutipan dengan Komponen Dokumen Lain"
+    description: "Kutipan dapat memuat elemen-elemen dokumen Markdown lain, seperti butir-butir, teks dengan tulisan khusus, bahkan ekspresi matematika. Tidak semua elemen dokumen dapat dituliskan di dalam kutipan. Anda harus mencoba untuk mengetahuinya."
     markdown: |
-      > ### The quarterly results look great!
+      > ### Ciri-ciri orang beriman yang beruntung
+      > Menurut Al-Qur'an, ciri-ciri orang beriman yang beruntung adalah:
+      > 1. orang yang **khusyuk dalam salatnya**,
+      > 2. orang yang **menjauhkan diri dari (perbuatan dan perkataan) yang tidak berguna**,
+      > 3. orang yang **menunaikan zakat**,
+      > 4. orang yang **memelihara kemaluannya**,kecuali terhadap istri-istri mereka atau hamba sahaya yang mereka miliki; maka sesungguhnya mereka tidak tercela,
+      > 5. orang yang **memelihara amanat-amanat dan janjinya**,
+      > 6. orang yang **memelihara salatnya**.
       >
-      > - Revenue was off the chart.
-      > - Profits were higher than ever.
-      >
-      >  *Everything* is going according to **plan**.
-    html: "<blockquote><h3>The quarterly results look great!</h3><ul><li>Revenue was off the chart.</li><li>Profits were higher than ever.</li></ul><p><em>Everything</em> is going according to <strong>plan</strong>.</p></blockquote>"
+      >  *Mereka itulah orang-orang yang akan mewarisi surga Firdaus dan mereka kekal di dalamnya.* (Q.S. 23: 1 - 11)
+    html: "<blockquote><h3>Ciri-ciri orang beriman yang beruntung</h3>Menurut Al-Qur'an, ciri-ciri orang beriman yang beruntung adalah:<ol><li>orang yang <b>khusyuk dalam salatnya</b></li>,<li>orang yang <b>menjauhkan diri dari (perbuatan dan perkataan) yang tidak berguna</b>,</li><li><orang yang <b>menunaikan zakat</b>,/li><li>orang yang <b>memelihara kemaluannya</b>,kecuali terhadap istri-istri mereka atau hamba sahaya yang mereka miliki; maka sesungguhnya mereka tidak tercela</li>,<li>orang yang <b>memelihara amanat-amanat dan janjinya</b></li>,<li>orang yang <b>memelihara salatnya</b></li>.</ol><p><i>Mereka itulah orang-orang yang akan mewarisi surga Firdaus dan mereka kekal di dalamnya</i>. (Q.S. 23: 1 - 11)</p></blockquote>"
 ---
 
-To create a blockquote, add a `>` in front of a paragraph.
+Untuk menuliskan suatu kutipan (langsung), gunakan tanda `>`  di depan teks kutipan. Teks kutipan dapat memuat teks dengan semua format. 
 
 ```
-> Dorothy followed her through many of the beautiful rooms in her castle.
+> *Demi Kitab (Al-Qur'an) yang menerangkan. Sesungguhnya Kami menjadikan Al Quran dalam bahasa Arab supaya kamu memahami(nya).* (Q.S. Az-Zukhruf: 2-3)
 ```
 
-The rendered output looks like this:
+Hasilnya akan tampak seperti:
 
-> Dorothy followed her through many of the beautiful rooms in her castle.
+> *Demi Kitab (Al-Qur'an) yang menerangkan. Sesungguhnya Kami menjadikan Al Quran dalam bahasa Arab supaya kamu memahami(nya).*  (Q.S. Az-Zukhruf: 2-3)
 
-### Blockquotes with Multiple Paragraphs
+### Kutipan Terdiri Atas Beberapa Paragraf
 
-Blockquotes can contain multiple paragraphs. Add a `>` on the blank lines between the paragraphs.
+Untuk menuliskan kutipan yang terdiri atas beberapa paragraf, setiap paragraf diawali dengan tanda `>` dan antar paragraf dipisahkan dengan baris kosong yang diawali dengan tanda `>` .
 
-```
-> Dorothy followed her through many of the beautiful rooms in her castle.
+```markdown
+Di antara sendi-sendi pergaulan sesama manusia menurut Al-Qur'an adalah sebagai berikut:
+> (Q.S 49:11):
+>> *Wahai orang-orang yang beriman! Janganlah suatu kaum mengolok-olok kaum yang lain (karena) boleh jadi mereka (yang diperolok-olokkan) lebih baik dari mereka (yang mengolok-olok) dan jangan pula perempuan-perempuan (mengolok-olokkan) perempuan lain (karena) boleh jadi perempuan (yang diperolok-olokkan) lebih baik dari perempuan (yang mengolok-olok). Janganlah kamu saling mencela satu sama lain dan janganlah saling memanggil dengan gelar-gelar yang buruk. Seburuk-buruk panggilan adalah (panggilan) yang buruk (fasik) setelah beriman. Dan barangsiapa tidak bertobat, maka mereka itulah orang-orang yang zalim.*  
 >
-> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-```
-
-The rendered output looks like this:
-
-> Dorothy followed her through many of the beautiful rooms in her castle.
->
-> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-
-### Nested Blockquotes
-
-Blockquotes can be nested. Add a `>>` in front of the paragraph you want to nest.
-
-```
-> Dorothy followed her through many of the beautiful rooms in her castle.
->
->> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+>(Q.S 49:12):
+>> *Wahai orang-orang yang beriman! Jauhilah banyak dari prasangka, sesungguhnya sebagian prasangka itu dosa dan janganlah kamu mencari-cari kesalahan orang lain dan janganlah ada di antara kamu yang menggunjing sebagian yang lain. Apakah ada di antara kamu yang suka memakan daging saudaranya yang sudah mati? Tentu kamu merasa jijik. Dan bertakwalah kepada Allah, sesungguhnya Allah Maha Penerima tobat, Maha Penyayang.* 
 ```
 
-The rendered output looks like this:
+Tampilan hasilnya:
 
-> Dorothy followed her through many of the beautiful rooms in her castle.
+Di antara sendi-sendi pergaulan sesama manusia menurut Al-Qur'an adalah sebagai berikut:
+> (Q.S 49:11):
+> > *Wahai orang-orang yang beriman! Janganlah suatu kaum mengolok-olok kaum yang lain (karena) boleh jadi mereka (yang diperolok-olokkan) lebih baik dari mereka (yang mengolok-olok) dan jangan pula perempuan-perempuan (mengolok-olokkan) perempuan lain (karena) boleh jadi perempuan (yang diperolok-olokkan) lebih baik dari perempuan (yang mengolok-olok). Janganlah kamu saling mencela satu sama lain dan janganlah saling memanggil dengan gelar-gelar yang buruk. Seburuk-buruk panggilan adalah (panggilan) yang buruk (fasik) setelah beriman. Dan barangsiapa tidak bertobat, maka mereka itulah orang-orang yang zalim.*  
 >
->> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+> (Q.S 49:12):
+>
+> > *Wahai orang-orang yang beriman! Jauhilah banyak dari prasangka, sesungguhnya sebagian prasangka itu dosa dan janganlah kamu mencari-cari kesalahan orang lain dan janganlah ada di antara kamu yang menggunjing sebagian yang lain. Apakah ada di antara kamu yang suka memakan daging saudaranya yang sudah mati? Tentu kamu merasa jijik. Dan bertakwalah kepada Allah, sesungguhnya Allah Maha Penerima tobat, Maha Penyayang.* 
 
-### Blockquotes with Other Elements
+### Kutipan di dalam Kutipan
 
-Blockquotes can contain other Markdown formatted elements. Not all elements can be used — you'll need to experiment to see which ones work.
+Untuk menuliskan kutipan di dalam kutipan digunakan tanda `>>` di dalam kutipan kedua.
 
+```markdown
+> Telah menceritakan kepada kami [Muhammad bin Al Mutsanna], telah menceritakan kepada kami [Yahya], dari [Isma'il] berkata, telah menceritakan kepada saya [Qais], dari [Ibnu Mas'ud radliallahu 'anhu] berkata, Aku mendengar Nabi Shallallahu'alaihiwasallam bersabda: 
+>>*Tidak boleh iri (dengki) kecuali kepada dua hal. (Yaitu kepada) seorang yang Allah berikan kepadanya harta lalu dia menguasainya dan membelanjakannya di jalan yang haq (benar) dan seorang yang Allah berikan hikmah (ilmu) lalu dia melaksanakannya dan mengajarkannya (kepada orang lain)*. 
+>
+> ([Shahih Bukhari hadis nomor 1320, Lihat: Fathul Bari Ibnu Hajar](https://carihadis.com/Shahih_Bukhari/=ilmu))
 ```
-> #### The quarterly results look great!
+
+Tampilan hasil penulisan di atas adalah:
+
+> Telah menceritakan kepada kami [Muhammad bin Al Mutsanna], telah menceritakan kepada kami [Yahya], dari [Isma'il] berkata, telah menceritakan kepada saya [Qais], dari [Ibnu Mas'ud radliallahu 'anhu] berkata, Aku mendengar Nabi Shallallahu'alaihiwasallam bersabda: 
 >
-> - Revenue was off the chart.
-> - Profits were higher than ever.
+> >*Tidak boleh iri (dengki) kecuali kepada dua hal. (Yaitu kepada) seorang yang Allah berikan kepadanya harta lalu dia menguasainya dan membelanjakannya di jalan yang haq (benar) dan seorang yang Allah berikan hikmah (ilmu) lalu dia melaksanakannya dan mengajarkannya (kepada orang lain)*. 
+> 
+> ([Shahih Bukhari hadis nomor 1320, Lihat: Fathul Bari Ibnu Hajar](https://carihadis.com/Shahih_Bukhari/=ilmu))
+
+### Kutipan dengan Komponen Dokumen Lain
+
+Kutipan dapat memuat elemen-elemen dokumen Markdown lain, seperti butir-butir, teks dengan tulisan khusus, bahkan ekspresi matematika. Tidak semua elemen dokumen dapat dituliskan di dalam kutipan. Anda harus mencoba untuk mengetahuinya.
+
+```markdown
+> ### Ciri-ciri orang beriman yang beruntung
+> Menurut Al-Qur'an, ciri-ciri orang beriman yang beruntung adalah:
+> 1. orang yang **khusyuk dalam salatnya**,
+> 2. orang yang **menjauhkan diri dari (perbuatan dan perkataan) yang tidak berguna**,
+> 3. orang yang **menunaikan zakat**,
+> 4. orang yang **memelihara kemaluannya**,kecuali terhadap istri-istri mereka atau hamba sahaya yang mereka miliki; maka sesungguhnya mereka tidak tercela,
+> 5. orang yang **memelihara amanat-amanat dan janjinya**,
+> 6. orang yang **memelihara salatnya**.
 >
->  *Everything* is going according to **plan**.
+>  *Mereka itulah orang-orang yang akan mewarisi surga Firdaus dan mereka kekal di dalamnya.* (Q.S. 23: 1 - 11)
 ```
 
-The rendered output looks like this:
+Tampilan hasilnya adalah:
 
-> <h4 class="no-anchor">The quarterly results look great!</h4>
+> ### Ciri-ciri orang beriman yang beruntung
 >
-> - Revenue was off the chart.
-> - Profits were higher than ever.
+> Menurut Al-Qur'an, ciri-ciri orang beriman yang beruntung adalah:
+> 1. orang yang **khusyuk dalam salatnya**,
+> 2. orang yang **menjauhkan diri dari (perbuatan dan perkataan) yang tidak berguna**,
+> 3. orang yang **menunaikan zakat**,
+> 4. orang yang **memelihara kemaluannya**,kecuali terhadap istri-istri mereka atau hamba sahaya yang mereka miliki; maka sesungguhnya mereka tidak tercela,
+> 5. orang yang **memelihara amanat-amanat dan janjinya**,
+> 6. orang yang **memelihara salatnya**.
 >
-> *Everything* is going according to **plan**.
+>  *Mereka itulah orang-orang yang akan mewarisi surga Firdaus dan mereka kekal di dalamnya.* (Q.S. 23: 1 - 11)
+

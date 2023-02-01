@@ -201,3 +201,11 @@ CommonMark and a few other lightweight markup languages let you use a parenthesi
     </tr>
   </tbody>
 </table>
+
+
+<font size="+2">&#xA990;</font>
+
+
+
+<span style="font-family:Papyrus; font-size:4em;">LOVE!</span>
+

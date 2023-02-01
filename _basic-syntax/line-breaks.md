@@ -1,80 +1,73 @@
 ---
-title: Line Breaks
+title: Pergantian Baris
 syntax-id: line-breaks
-description: "To create a line break (`<br>`), end a line with two or more spaces, and then type return."
+description: "Untuk menulis kalimat pada baris baru (pergantian baris dalam satu paragraf)  (`<br>`), akhiri kalimat dengan dua spasi atau lebih, lalu ketik tombol **[Enter]**."
 examples:
   - markdown: |
-      This is the first line.  
-      And this is the second line.
-    html: "<p>This is the first line.  <br>And this is the second line.</p>"
+      Kalimat pertama pada baris pertama.  
+      Kalimat kedua pada baris kedua.
+    html: "<p>TKalimat pertama pada baris pertama.  <br>Kalimat kedua pada baris kedua.</p>"
 ---
 
-To create a line break (`<br>`), end a line with two or more spaces, and then type return.
+Untuk menulis kalimat pada baris baru (pergantian baris dalam satu paragraf)  (`<br>`), akhiri kalimat dengan dua spasi atau lebih, lalu ketik tombol **[Enter]**.
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th>Markdown</th>
       <th>HTML</th>
-      <th>Rendered Output</th>
+      <th>Tampilan</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
-        <code class="highlighter-rouge">
-          This is the first line. &nbsp;<br />
-          And this is the second line.
+        <code class="highlighter-rouge">Kalimat pertama pada baris pertama.   &nbsp;<br />Kalimat kedua pada baris kedua.
         </code>
       </td>
       <td>
-        <code class="highlighter-rouge">&lt;p&gt;This is the first line.&lt;br&gt;<br />
-
-        And this is the second line.&lt;/p&gt;</code>
-      </td>
-      <td>
-        <p>This is the first line.<br />   
-        And this is the second line.</p>
-      </td>
-    </tr>
-  </tbody>
+        <code class="highlighter-rouge">&lt;p&gt;Kalimat pertama pada baris pertama.&lt;br&gt;<br/> Kalimat kedua pada baris kedua.&lt;/p&gt;</code>
+  </td>
+  <td>
+    <p>Kalimat pertama pada baris pertama.<br/>   
+    Kalimat kedua pada baris kedua.</p>
+  </td>
+</tr>
+</tbody>
 </table>
+### Praktik Terbaik Pergantian Baris
 
-### Line Break Best Practices
+Anda dapat menggunakan dua spasi atau lebih (biasa disebut sebagai "*trailing whitespace*") untuk berganti baris pada hampir setiap aplikasi Markdown, tetapi hal itu merupakan kontroversial. Sulit untuk melihat beberapa spasi kosong di editor, dan banyak orang secara tidak sengaja atau sengaja menempatkan dua spasi setelah setiap kalimat. Untuk alasan ini, Anda mungkin ingin menggunakan sesuatu selain spasi kosong dan **[Enter]** untuk melakukan pergantian baris. Untungnya, ada opsi lain yang didukung oleh hampir setiap aplikasi Markdown: tag HTML `<br>`.
 
-You can use two or more spaces (commonly referred to as "trailing whitespace") for line breaks in nearly every Markdown application, but it's controversial. It's hard to see trailing whitespace in an editor, and many people accidentally or intentionally put two spaces after every sentence. For this reason, you may want to use something other than trailing whitespace for line breaks. Fortunately, there is another option supported by nearly every Markdown application: the `<br>` HTML tag.
+Untuk kompatibilitas, gunakan beberapa spasi kosong atau tag HTML `<br>` di akhir baris.
 
-For compatibility, use trailing white space or the `<br>` HTML tag at the end of the line.
-
-There are two other options I don't recommend using. CommonMark and a few other lightweight markup languages let you type a backslash (`\`) at the end of the line, but not all Markdown applications support this, so it isn't a great option from a compatibility perspective. And at least a couple lightweight markup languages don't require anything at the end of the line — just type return and they'll create a line break.
+Ada dua opsi lain yang tidak direkomendasikan. **CommonMark** dan beberapa bahasa markup ringan lainnya memungkinkan Anda mengetik garis miringkiri (`\`) di akhir baris, tetapi tidak semua aplikasi Markdown mendukung ini, jadi ini bukan pilihan yang bagus dari perspektif kompatibilitas. Dan setidaknya beberapa bahasa markup ringan tidak memerlukan apa pun di akhir baris - cukup tekan **[Enter]** dan hasilnya akan berganti baris.
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>✅&nbsp; Do this</th>
-      <th>❌&nbsp; Don't do this</th>
+      <th>✅&nbsp; Gunakan yang ini</th>
+      <th>❌&nbsp; Jangan gunakan seperti ini</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
         <code class="highlighter-rouge">
-          First line with two spaces after. &nbsp;<br>
-          And the next line.<br><br>
-
-          First line with the HTML tag after.&lt;br&gt;<br>
-          And the next line.<br><br>
-        </code>
+          Baris pertama diakhiri spasi kosong.  &nbsp;<br>
+          Ini baris berikutnya.<br><br>
+            Baris pertama diakhiri tag HTML.&lt;br&gt;<br>
+      Ini baris berikutnya.<br><br>
+    </code>
+  </td>
+  <td>
+    <code class="highlighter-rouge">
+    Baris pertama diakhiri garis miring kiri.\<br>
+    Ini baris berikutnya.<br><br>
+    Baris pertama tanpa diakhiri apa-apa (langsung tekan <b>[Enter]</b>).<br>
+Ini baris berikutnya.<br><br>
+</code>
       </td>
-      <td>
-        <code class="highlighter-rouge">
-        First line with a backslash after.\<br>
-        And the next line.<br><br>
-
-        First line with nothing after.<br>
-        And the next line.<br><br>
-        </code>
-      </td>
-    </tr>
-  </tbody>
+</tr>
+</tbody>
 </table>

@@ -1,76 +1,29 @@
 ---
-title: Paragraphs
+title: Paragraf
 syntax-id: paragraphs
-description: "To create paragraphs, use a blank line to separate one or more lines of text. You should not indent paragraphs with spaces or tabs."
+description: "Jika ingin berganti alinea, sisipkan baris kosong. Cukup satu baris kosong! Jangan mengawali suatu paragraf dengan spasi kosong atau tombol Tab."
 examples:
   - markdown: |
-      I really like using Markdown.
+      Saya sangat suka menggunakan Markdown.
 
-      I think I'll use it to format all of my documents from now on.
-    html: "<p>I really like using Markdown.</p><p>I think I'll use it to format all of my documents from now on.</p>"
+      Saya rasa saya akan menggunakannya untuk memformat semua dokumen saya mulai sekarang.
+    html: "<p>Saya sangat suka menggunakan Markdown.</p><p>Saya rasa saya akan menggunakannya untuk memformat semua dokumen saya mulai sekarang.</p>"
 ---
 
-To create paragraphs, use a blank line to separate one or more lines of text.
+Dalam setiap naskah, di bawah setiap judul atau subjudul tentu berisi teks uraian yang menjelaskan isi atau maksud judul atau subjudul tersebut. Setiap dokumen ilmiah pasti memuat paragraf yang berisi ide-ide penulis yang disampaikan kepada pembaca. Paragraf biasanya terdiri atas beberapa kalimat yang menjelaskan satu gagasan tertentu.
 
-<table class="table table-bordered">
-  <thead class="thead-light">
-    <tr>
-      <th>Markdown</th>
-      <th>HTML</th>
-      <th>Rendered Output</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <code class="highlighter-rouge">
-          I really like using Markdown.<br /><br />
+Anda tidak perlu berfikir/merasa pusing bagaimana menulis paragraf. Langsung saja ketik ide yang keluar dari kecerdasan Anda dalam bentuk tulisan dengan kata-kata  yang tersusun dalam kalimat-kalimat yang mudah dipahami pembaca. Sekali lagi, jangan berfikir hal-hal teknis, cukup ketik saja isi pikiran Anda! Jika ingin berganti alinea, sisipkan baris kosong. Cukup satu baris kosong! Inilah contohnya:
 
-          I think I'll use it to format all of my documents from now on.
-        </code>
-      </td>
-      <td>
-        <code class="highlighter-rouge">&lt;p&gt;I really like using Markdown.&lt;/p&gt;<br /><br />
+```
+Saya sangat suka menggunakan Markdown.
 
-        &lt;p&gt;I think I'll use it to format all of my documents from now on.&lt;/p&gt;</code>
-      </td>
-      <td>
-        <p>I really like using Markdown.</p>
+Saya rasa saya akan menggunakannya untuk memformat semua dokumen saya mulai sekarang.
+```
 
-        <p>I think I'll use it to format all of my documents from now on.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+> Saya sangat suka menggunakan Markdown.
+>
+> Saya rasa saya akan menggunakannya untuk memformat semua dokumen saya mulai sekarang.
 
-### Paragraph Best Practices
+==Kecuali suatu paragraf merupakan daftar, jangan menulis kalimat pertama suatu paragraf diawali dengan spasi kosong atau dengan menekan tombol `[Tab]`.  Biarkan paragraf rata kiri.== 
 
-Unless the [paragraph is in a list](/basic-syntax/#paragraphs), don't indent paragraphs with spaces or tabs.
-
-<table class="table table-bordered">
-  <thead class="thead-light">
-    <tr>
-      <th>✅&nbsp; Do this</th>
-      <th>❌&nbsp; Don't do this</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <code class="highlighter-rouge">
-          Don't put tabs or spaces in front of your paragraphs.<br><br>
-
-          Keep lines left-aligned like this.<br><br>
-        </code>
-      </td>
-      <td>
-        <code class="highlighter-rouge">
-        &nbsp;&nbsp;&nbsp;&nbsp;This can result in unexpected
-        formatting problems.<br><br>
-
-        &nbsp;&nbsp;Don't add tabs or spaces in front of paragraphs.
-        </code>
-      </td>
-    </tr>
-  </tbody>
-</table>
+==Untuk memaksa suatu kalimat di dalam paragraf ditulis di baris baru, akhiri kalimat sebelumnya dengan dua atau lebih spasi kosong dan tekan tombol `[Enter]`, atau  tuliskan tag HTML `<br>`.==

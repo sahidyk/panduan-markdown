@@ -1,66 +1,66 @@
 ---
-title: Bold
+title: Tulisan Tebal
 syntax-id: bold
-syntax-summary: "**bold text**"
-description: "To bold text, add two asterisks or underscores before and after a word or phrase. To bold the middle of a word for emphasis, add two asterisks without spaces around the letters."
+syntax-summary: "**Tulisan tebal**"
+description: "Untuk menebalkan teks, tambahkan dua tanda bintang atau garis bawah sebelum dan sesudah teks tersebut. Untuk menebalkan bagian tengah kata untuk penekanan, tambahkan dua tanda bintang tanpa spasi di sekitar huruf."
 examples:
-  - markdown: "I just love **bold text**."
-    html: "I just love <strong>bold text</strong>."
-  - markdown: "I just love __bold text__."
-    html: "I just love <strong>bold text</strong>."
-  - markdown: "Love**is**bold"
-    html: "Love<strong>is</strong>bold"
+  - markdown: "Hati-hati menggunakan **tulisan tebal**."
+    html: "Hati-hati menggunakan <strong>tulisan tebal</strong>."
+  - markdown: "Hati-hati menggunakan __tulisan tebal__."
+    html: "Hati-hati menggunakan <b>tulisan tebal</b>."
+  - markdown: "Jangn suka meng-**kafir**-kan orang"
+    html: "Jangn suka meng-<strong>kafir</strong>-kan orang"
 ---
 
-To bold text, add two asterisks or underscores before and after a word or phrase. To bold the middle of a word for emphasis, add two asterisks without spaces around the letters.
+Untuk menebalkan teks, tambahkan dua tanda bintang atau garis bawah sebelum dan sesudah teks tersebut. Untuk menebalkan bagian tengah kata (untuk penekanan), tambahkan dua tanda bintang tanpa spasi di sekitar huruf.
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th>Markdown</th>
       <th>HTML</th>
-      <th>Rendered Output</th>
+      <th>Hasil (Tampilan)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><code class="highlighter-rouge">I just love **bold text**.</code></td>
-      <td><code class="highlighter-rouge">I just love &lt;strong&gt;bold text&lt;/strong&gt;.</code></td>
-      <td>I just love <strong>bold text</strong>.</td>
+      <td><code class="highlighter-rouge">Hati-hati menggunakan **tulisan tebal**.</code></td>
+      <td><code class="highlighter-rouge">Hati-hati menggunakan &lt;strong&gt;tulisan tebal&lt;/strong&gt;.</code></td>
+      <td>Hati-hati menggunakan <strong>tulisan tebal</strong>.</td>
     </tr>
     <tr>
-      <td><code class="highlighter-rouge">I just love __bold text__.</code></td>
-      <td><code class="highlighter-rouge">I just love &lt;strong&gt;bold text&lt;/strong&gt;.</code></td>
-      <td>I just love <strong>bold text</strong>.</td>
+      <td><code class="highlighter-rouge">Hati-hati menggunakan __tulisan tebal__.</code></td>
+      <td><code class="highlighter-rouge">Hati-hati menggunakan &lt;b&gt;tulisan tebal&lt;/b&gt;.</code></td>
+      <td>Hati-hati menggunakan <b>tulisan tebal</b>.</td>
     </tr>
     <tr>
-      <td><code class="highlighter-rouge">Love**is**bold</code></td> <td><code class="highlighter-rouge">Love&lt;strong&gt;is&lt;/strong&gt;bold</code></td>
-      <td>Love<strong>is</strong>bold</td>
+      <td><code class="highlighter-rouge">Jangan suka meng-**kafir**-kan orang.</code></td> <td><code class="highlighter-rouge">Jangan suka meng-&lt;strong&gt;kafir&lt;/strong&gt;-kan orang.</code></td>
+      <td>Jangan suka meng-<strong>kafir</strong>-kan orang.</td>
     </tr>
   </tbody>
 </table>
 
-#### Bold Best Practices
+#### Praktik Terbaik Menulis Tebal
 
-Markdown applications don't agree on how to handle underscores in the middle of a word. For compatibility, use asterisks to bold the middle of a word for emphasis.
+Aplikasi Markdown tidak selalu dapat memproses tulisan tebal dengan garis bawah di tengah kata. Untuk kompatibilitas, gunakan tanda bintang dalam menebalkan tulisan di tengah kata (untuk penekanan).
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>✅&nbsp; Do this</th>
-      <th>❌&nbsp; Don't do this</th>
+      <th>✅&nbsp; Gunakan ini</th>
+      <th>❌&nbsp; Hindari yang ini</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
         <code class="highlighter-rouge">
-          Love**is**bold
+          Jangn suka meng-**kafir**-kan orang.
         </code>
       </td>
       <td>
         <code class="highlighter-rouge">
-          Love__is__bold
+          Jangn suka meng-__kafir__-kan orang.
         </code>
       </td>
     </tr>
