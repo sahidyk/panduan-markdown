@@ -6,11 +6,11 @@ description: Penjelasan tentang Panduan Markdown
 
 ## Tujuan
 
-*[Panduan Markdown](../index.html)* ini adalah referensi Markdown komprehensif yang ditujukan bagi pemula dan mereka yang sudah mahir. Panduan ini dilatarbelangani oleh ketidakpuasan dengan referensi Markdown yang ada, yang tidak lengkap dan tidak memadai. Terjemahan bahasa Indonesia ini dilakukan oleh [Sahid](sahidyk.github.com) dari Panduan Markdown asli berbahasa Inggris.
+*[Panduan Markdown](../index.html)* ini adalah referensi Markdown komprehensif yang ditujukan bagi pemula dan mereka yang sudah mahir. Panduan ini dilatarbelangani oleh ketidakpuasan dengan referensi Markdown yang ada, yang tidak lengkap dan tidak memadai. Terjemahan bahasa Indonesia ini dan modifikasi dilakukan oleh [Sahid](https://sahidyk.github.com) dari Panduan Markdown asli berbahasa Inggris.
 
 ## Berkontribusi
 
-Ini adalah proyek terbuka, dan kontribusi Anda akan diterima dengan senang hati. Repositori ini [disimpan di GitHub](https://github.com/mattcone/markdown-guide). Lihat berkas [README](https://github.com/mattcone/markdown-guide/blob/master/README.md) untuk penjelasan dan petunjuk detil.
+Ini adalah proyek terbuka, dan kontribusi Anda akan diterima dengan senang hati. Repositori ini [disimpan di GitHub](https://github.com/sahidyk/panduan-markdown). Lihat berkas [README](https://github.com/sahidyk/panduan-markdown/blob/master/README.md) untuk penjelasan dan petunjuk detil.
 
 ## Pelaporan Masalah 
 
