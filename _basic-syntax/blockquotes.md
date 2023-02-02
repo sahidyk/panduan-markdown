@@ -28,7 +28,7 @@ additional-examples:
       > 1. orang yang **khusyuk dalam salatnya**,
       > 2. orang yang **menjauhkan diri dari (perbuatan dan perkataan) yang tidak berguna**,
       > 3. orang yang **menunaikan zakat**,
-      > 4. orang yang **memelihara kemaluannya**,kecuali terhadap istri-istri mereka atau hamba sahaya yang mereka miliki; maka sesungguhnya mereka tidak tercela,
+      > 4. orang yang **memelihara kemaluannya**, kecuali terhadap istri-istri mereka atau hamba sahaya yang mereka miliki; maka sesungguhnya mereka tidak tercela,
       > 5. orang yang **memelihara amanat-amanat dan janjinya**,
       > 6. orang yang **memelihara salatnya**.
       >
