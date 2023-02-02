@@ -8,8 +8,8 @@ examples:
     html: "Hati-hati menggunakan <strong>tulisan tebal</strong>."
   - markdown: "Hati-hati menggunakan __tulisan tebal__."
     html: "Hati-hati menggunakan <b>tulisan tebal</b>."
-  - markdown: "Jangn suka meng-**kafir**-kan orang"
-    html: "Jangn suka meng-<strong>kafir</strong>-kan orang"
+  - markdown: "Jangan suka meng-**kafir**-kan orang"
+    html: "Jangan suka meng-<strong>kafir</strong>-kan orang"
 ---
 
 Untuk menebalkan teks, tambahkan dua tanda bintang atau garis bawah sebelum dan sesudah teks tersebut. Untuk menebalkan bagian tengah kata (untuk penekanan), tambahkan dua tanda bintang tanpa spasi di sekitar huruf.
@@ -55,12 +55,12 @@ Aplikasi Markdown tidak selalu dapat memproses tulisan tebal dengan garis bawah 
     <tr>
       <td>
         <code class="highlighter-rouge">
-          Jangn suka meng-**kafir**-kan orang.
+          Jangan suka meng-**kafir**-kan orang.
         </code>
       </td>
       <td>
         <code class="highlighter-rouge">
-          Jangn suka meng-__kafir__-kan orang.
+          Jangan suka meng-__kafir__-kan orang.
         </code>
       </td>
     </tr>
