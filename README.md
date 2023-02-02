@@ -2,7 +2,7 @@
 
 [![Build Status](https://github.com/sahidyk/panduan-markdown/workflows/tests/badge.svg?branch=master)](https://github.com/sahidyk/panduan-markdown/actions)
 
-*[Panduan Markdown](https://panduan-markdown.netlify.app)* ini adalah referensi Markdown komprehensif yang ditujukan bagi pemula dan mereka yang sudah mahir. Panduan ini dilatarbelangani oleh ketidakpuasan dengan referensi Markdown yang ada, yang tidak lengkap dan tidak memadai. Terjemahan bahasa Indonesia ini dilakukan oleh [Sahid](sahidyk.github.com) dari Panduan Markdown asli berbahasa [Inggris](https://www.markdownguide.org).
+*[Panduan Markdown](https://panduan-markdown.netlify.app)* ini adalah referensi Markdown komprehensif yang ditujukan bagi pemula dan mereka yang sudah mahir. Panduan ini dilatarbelangani oleh ketidakpuasan dengan referensi Markdown yang ada, yang tidak lengkap dan tidak memadai. Terjemahan bahasa Indonesia ini dilakukan oleh [Sahid](https://github.com/sahidyk) dari Panduan Markdown asli berbahasa [Inggris](https://www.markdownguide.org).
 
 ### Menampilkan Panduan di Komputer Lokal
 
