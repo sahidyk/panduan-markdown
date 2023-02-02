@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Langkah Awal
-description: Sekilah tetang Markdown, cara kerjanya, dan apa yang dapat dilakukan dengannya.
-last_modified_at: 2021-04-25 (terjemahan Indonesia 04-06-2021)
+description: Sekilah tentang Markdown, cara kerjanya, dan apa yang dapat dilakukan dengannya.
+last_modified_at: 2021-04-25 (terjemahan Indonesia 02-02-2023)
 ---
 
 {% include_relative _getting-started/what-is-markdown.md %}
