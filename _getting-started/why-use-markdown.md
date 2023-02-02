@@ -10,4 +10,4 @@ Anda mungkin bertanya-tanya mengapa orang menggunakan Markdown alih-alih editor 
 
 - Markdown bersifat tak akan lekang ditelan masa. Meskipun aplikasi yang Anda gunakan berhenti berfungsi suatu saat di masa mendatang, Anda masih dapat membaca teks berformat Markdown menggunakan aplikasi pengeditan teks. Ini adalah pertimbangan penting dalam hal buku, tesis universitas, dan dokumen tonggak sejarah lainnya yang perlu dipertahankan tanpa batas waktu.
 
-- Markdown sudah hadir di mana-mana. Situs web seperti [Reddit](/tools/reddit/) dan GitHub mendukung Markdown, dan banyak aplikasi berbasis desktop (contohnya *RStudio*) dan web mendukungnya.
+- Markdown sudah hadir di mana-mana. Situs web seperti [Reddit](/tools/reddit/) dan GitHub mendukung Markdown, dan banyak aplikasi berbasis desktop (contohnya **RStudio**) dan web mendukungnya.
