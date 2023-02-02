@@ -4,7 +4,7 @@ syntax-id: lists
 api: "no"
 ---
 
-Anda dapat menyusun daftar butir dalam bentuk daftar bernomor atau daftar butir tànpa nomor.
+Anda dapat menyusun daftar butir dalam bentuk daftar bernomor atau daftar butir tanpa nomor.
 
 {% include syntax.html type="basic-sub" syntax-id="ordered-lists" %}
 
@@ -12,9 +12,9 @@ Anda dapat menyusun daftar butir dalam bentuk daftar bernomor atau daftar butir 
 
 ### Menambahkan Butir-butir dalam Daftar
 
-Untuk menambahkan butir baru ke dalam suatu daftar sambil mempertahankan kelanjutan daftar, mulai butir baru dari barus baru diawali empat spasi/ketukan atau sàtu tombol tab, seperti ditu jukkan pada contoh-contoh di bawah ini.
+Untuk menambahkan butir baru ke dalam suatu daftar sambil mempertahankan kelanjutan daftar, mulai butir baru dari barus baru diawali empat spasi/ketukan atau satu tombol tab, seperti ditunjukkan pada contoh-contoh di bawah ini.
 
-#### Paragraf
+#### Paragraf di dalam daftar butir
 
 ```
 *   Ini adalah butir pertama.
@@ -32,60 +32,58 @@ Hasil penulisan di atas adalah sebagai berikut:
 
     Ini adalah paragraf yang disisipkan setelah butir kedua.
 
-*   Ini adalah butir ke tiga, lanjutan daftar sebelumnya
+*   Ini adalah butir ke tiga, lanjutan daftar sebelumnya.
 
 
-#### Blockquotes
+#### Kutipan di dalam daftar butir
 
 ```
-*   This is the first list item.
-*   Here's the second list item.
+*   Ini adalah butir pertama.
+*   Ini adalah butir kedua.
 
-    > A blockquote would look great below the second list item.
+    > Ini adalah kutipan yang disisipkan setelah butir kedua.
 
-*   And here's the third list item.
+*   Ini adalah butir ke tiga, lanjutan daftar sebelumnya.
 ```
 
-The rendered output looks like this:
+Hasil penulisan di atas adalah sebagai berikut:
 
-*   This is the first list item.
-*   Here's the second list item.
+*   Ini adalah butir pertama.
+*   Ini adalah butir kedua.
 
-    > A blockquote would look great below the second list item.
+    > Ini adalah kutipan yang disisipkan setelah butir kedua.
 
-*   And here's the third list item.
+*   Ini adalah butir ke tiga, lanjutan daftar sebelumnya.
 
-#### Code Blocks {#code-blocks-1}
+#### Blok kode/program di dalam daftar butir {#code-blocks-1}
 
-[Code blocks](#code-blocks) are normally indented four spaces or one tab.  When they're in a list, indent them eight spaces or two tabs.
+[Blok kode/program](#code-blocks) biasanya diawali empat spasi kosong atau satu tombol tab. Untuk blok kode di dalam daftar butir, tambahkan delapan spasi atau dua tombol tab sebelumnya.
 
 ```text
-1.  Open the file.
-2.  Find the following code block on line 21:
+1.  Buka file yang akan diperbarui.
+2.  Cari blok kode berikut ini:
 
         <html>
           <head>
-            <title>Test</title>
+            <title>Judul Program</title>
           </head>
 
-3.  Update the title to match the name of your website.
+3.  Perbarui judul programnya sesuai dengan kegunaannya.
 ```
 
-The rendered output looks like this:
+Hasilnya akan terlihat seperti di bawah ini:
 
-1.  Open the file.
-2.  Find the following code block on line 21:
+1.  Buka file yang akan diperbarui.
+2.  Cari blok kode berikut ini:
 
-    ```text
-    <html>
-      <head>
-        <title>Test</title>
-      </head>
-    ```
+       ``` <html>
+          <head>
+            <title>Judul Program</title>
+          </head>
+       ```
+3.  Perbarui judul programnya sesuai dengan kegunaannya.
 
-3.  Update the title to match the name of your website.
-
-#### Images
+#### Gambar di dalam daftar butir
 
 ```
 1.  Open the file containing the Linux mascot.
@@ -96,7 +94,7 @@ The rendered output looks like this:
 3.  Close the file.
 ```
 
-The rendered output looks like this:
+Hasilnya akan terlihat seperti di bawah ini:
 
 1.  Open the file containing the Linux mascot.
 2.  Marvel at its beauty.
@@ -105,24 +103,24 @@ The rendered output looks like this:
 
 3.  Close the file.
 
-#### Lists
+#### Daftar di dalam daftar
 
-You can nest an unordered list in an ordered list, or vice versa.
+Anda dapat membuat daftar bernomor di dalam daftar tanpa nomor, dan sebaliknya.
 
 ```
-1. First item
-2. Second item
-3. Third item
-    - Indented item
-    - Indented item
-4. Fourth item
+1. Butir pertama
+2. Butir kedua
+3. Butir ketiga
+    - Anak butir ketiga pertama
+    - Anak butir ketiga yang kedua
+4. Butir keempat
 ```
 
-The rendered output looks like this:
+Hasilnya akan terlihat seperti di bawah ini:
 
-1. First item
-2. Second item
-3. Third item
-    - Indented item
-    - Indented item
-4. Fourth item
+1. Butir pertama
+2. Butir kedua
+3. Butir ketiga
+    - Anak butir ketiga pertama
+    - Anak butir ketiga yang kedua
+4. Butir keempat
