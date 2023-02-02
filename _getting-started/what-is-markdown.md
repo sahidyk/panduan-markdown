@@ -1,6 +1,6 @@
 ## Apakah Markdown?
 
-Markdown adalah bahasa markup ringan yang dapat Anda gunakan untuk menambahkan elemen pemformatan ke dokumen teks biasa. Dibuat oleh [John Gruber](https://daringfireball.net/projects/markdown/) pada tahun 2004, Markdown sekarang menjadi salah satu bahasa markup paling populer di dunia.
+Markdown adalah bahasa *markup* ringan yang dapat Anda gunakan untuk menambahkan elemen pemformatan ke dokumen teks biasa. Dibuat oleh [John Gruber](https://daringfireball.net/projects/markdown/) pada tahun 2004, Markdown sekarang menjadi salah satu bahasa *markup* paling populer di dunia.
 
 Menggunakan Markdown berbeda dengan menggunakan editor [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG). Dalam aplikasi seperti Microsoft Word, Anda mengklik tombol untuk memformat tulisan dan tampilan dokumen, dan perubahan langsung terlihat. Markdown tidak seperti itu. Ketika Anda membuat file berformat Markdown, Anda menambahkan sintaks Markdown ke teks untuk menunjukkan tulisan dan bagian dokumen mana yang akan terlihat berbeda.
 
