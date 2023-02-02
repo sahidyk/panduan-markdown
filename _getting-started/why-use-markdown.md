@@ -4,10 +4,10 @@ Anda mungkin bertanya-tanya mengapa orang menggunakan Markdown alih-alih editor 
 
 - Markdown dapat digunakan untuk semuanya. Orang menggunakannya untuk membuat [situs web](#websites), [dokumen](#documents), [catatan](#notes), [buku](#books), [presentasi](#presentations), [pesan email](#email), dan [dokumentasi teknis](#documentation).
 
-- Markdown portabel. File yang berisi teks berformat Markdown dapat dibuka menggunakan hampir semua aplikasi. Jika Anda memutuskan tidak menyukai aplikasi Markdown yang saat ini Anda gunakan, Anda dapat mengimpor file Markdown ke aplikasi Markdown lain. Itu sangat kontras dengan aplikasi pemrosesan kata seperti Microsoft Word yang mengunci konten Anda ke dalam format file berpemilik.
+- Markdown bersifat portabel. File yang berisi teks berformat Markdown dapat dibuka menggunakan hampir semua aplikasi. Jika Anda memutuskan tidak menyukai aplikasi Markdown yang saat ini Anda gunakan, Anda dapat mengimpor file Markdown ke aplikasi Markdown lain. Itu sangat kontras dengan aplikasi pemrosesan kata seperti Microsoft Word yang mengunci konten Anda ke dalam format file berpemilik.
 
 - Markdown bersifat platform independen. Anda dapat membuat teks berformat Markdown di perangkat apa pun yang menjalankan sistem operasi apa pun.
 
 - Markdown bersifat tak akan lekang ditelan masa. Meskipun aplikasi yang Anda gunakan berhenti berfungsi suatu saat di masa mendatang, Anda masih dapat membaca teks berformat Markdown menggunakan aplikasi pengeditan teks. Ini adalah pertimbangan penting dalam hal buku, tesis universitas, dan dokumen tonggak sejarah lainnya yang perlu dipertahankan tanpa batas waktu.
 
-- Markdown sudah hadir dimana-mana. Situs web seperti [Reddit](/tools/reddit/) dan GitHub mendukung Markdown, dan banyak aplikasi berbasis desktop dan web mendukungnya.
+- Markdown sudah hadir di mana-mana. Situs web seperti [Reddit](/tools/reddit/) dan GitHub mendukung Markdown, dan banyak aplikasi berbasis desktop (contohnya *RStudio*) dan web mendukungnya.
