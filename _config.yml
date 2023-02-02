@@ -1,5 +1,5 @@
 title: "Panduan Markdown"
-url: https://www.markdownguide.org # site url
+url: https://panduan-markdown.netlify.app # site url
 baseurl: "" # apply repo name if use it under gh-pages branch
 
 repo: https://github.com/sahidyk/panduan-markdown
@@ -43,6 +43,6 @@ kramdown:
   auto_ids:       true
   toc_levels:     1..3
 
-# math_engine: katex
-math_engine: mathjax
+math_engine: katex
+# math_engine: mathjax
 exclude: ["vendor", "Gemfile", "Gemfile.lock", "README.md", "LICENSE.txt", "Rakefile", "netlify.toml"]
