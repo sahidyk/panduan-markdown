@@ -1,38 +1,39 @@
 ---
-title: Lists
+title: Daftar Butir
 syntax-id: lists
 api: "no"
 ---
 
-You can organize items into ordered and unordered lists.
+Anda dapat menyusun daftar butir dalam bentuk daftar bernomor atau daftar butir tànpa nomor.
 
 {% include syntax.html type="basic-sub" syntax-id="ordered-lists" %}
 
 {% include syntax.html type="basic-sub" syntax-id="unordered-lists" %}
 
-### Adding Elements in Lists
+### Menambahkan Butir-butir dalam Daftar
 
-To add another element in a list while preserving the continuity of the list, indent the element four spaces or one tab, as shown in the following examples.
+Untuk menambahkan butir baru ke dalam suatu daftar sambil mempertahankan kelanjutan daftar, mulai butir baru dari barus baru diawali empat spasi/ketukan atau sàtu tombol tab, seperti ditu jukkan pada contoh-contoh di bawah ini.
 
-#### Paragraphs
+#### Paragraf
 
 ```
-*   This is the first list item.
-*   Here's the second list item.
+*   Ini adalah butir pertama.
+*   Ini adalah butir kedua.
 
-    I need to add another paragraph below the second list item.
+    Ini adalah paragraf yang disisipkan setelah butir kedua.
 
-*   And here's the third list item.
+*   Ini adalah butir ke tiga, lanjutan daftar sebelumnya.
 ```
 
-The rendered output looks like this:
+Hasil penulisan di atas adalah sebagai berikut:
 
-*   This is the first list item.
-*   Here's the second list item.
+*   Ini adalah butir pertama.
+*   Ini adalah butir kedua.
 
-    I need to add another paragraph below the second list item.
+    Ini adalah paragraf yang disisipkan setelah butir kedua.
 
-*   And here's the third list item.
+*   Ini adalah butir ke tiga, lanjutan daftar sebelumnya
+
 
 #### Blockquotes
 
