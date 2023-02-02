@@ -7,29 +7,29 @@ description: "Belajar Markdown dalam 60 halaman. Buku Panduan Markdown ini memua
 <div class="row" style="padding-top: 15px; padding-bottom: 30px">
   <div class="col-sm-7">
     <h1 class="no-anchor" style="margin-top: 15px;">The Markdown Guide</h1>
-    <p class="lead" style="font-size:24px; color:#808080; padding-bottom:15px;">By Matt Cone</p>
-    <p class="lead" style="padding-bottom: 5px;">Learn Markdown in 60 pages. <em>The Markdown Guide</em> book includes everything you need to get started and master Markdown syntax.</p>
+    <p class="lead" style="font-size:24px; color:#808080; padding-bottom:15px;">Oleh: Matt Cone</p>
+    <p class="lead" style="padding-bottom: 5px;">Belajar Markdown dalam 60 halaman. Buku Panduan Markdown ini memuat penjelasan semua informasi yang Anda butuhkan untuk memulai dan menguasai sintaks Markdown.</p>
 
-    <p class="lead">✔️ &nbsp; Professional quality PDF, MOBI, and EPUB files (DRM-free)</p>
-    <p class="lead">✔️ &nbsp; Unlimited free lifetime updates</p>
-    <p class="lead">✔️ &nbsp; 100% satisfaction guaranteed</p>
+    <p class="lead">✔️ &nbsp; Kualitas profesional dalam format PDF, MOBI, dan EPUB (bebas DRM)</p>
+    <p class="lead">✔️ &nbsp; Memperoleh pembaruan selamanya tanpa batas waktu</p>
+    <p class="lead">✔️ &nbsp; Jaminan kepuasan 100%</p>
     
     <div class="row" style="padding-top:10px; margin-bottom:55px">
       <div class="col-sm-12">
-        <a class="btn btn-success btn-lg" style="margin-right: 20px; margin-top: 5px" href="https://gum.co/markdownguide?wanted=true">Buy now for $9.99</a>
-        <a class="btn btn-outline-secondary btn-lg" style="margin-top: 5px" href="/assets/markdown-guide-sample.pdf">Read free sample</a>
+        <a class="btn btn-success btn-lg" style="margin-right: 20px; margin-top: 5px" href="https://gum.co/markdownguide?wanted=true">Beli sekarang seharga $9.99</a>
+        <a class="btn btn-outline-secondary btn-lg" style="margin-top: 5px" href="/assets/markdown-guide-sample.pdf">Baca contoh halaman gratis</a>
       </div>
     </div>
     
-    <p class="lead" style="padding-top:0px;"><em>The Markdown Guide</em> is also available on <a href="https://leanpub.com/themarkdownguide">Leanpub</a> and <a href="https://amzn.to/31FMLMA">Amazon</a>.</p>
+    <p class="lead" style="padding-top:0px;"><em>The Markdown Guide</em> juga tersedia di <a href="https://leanpub.com/themarkdownguide">Leanpub</a> dan <a href="https://amzn.to/31FMLMA">Amazon</a>.</p>
   </div>
-  <div class="col-sm-5"><a href="https://gum.co/markdownguide?wanted=true"><img src="/assets/images/book-cover.jpg" class="img-fluid float-center" style="width: 95%" alt="The Markdown Guide book cover"></a></div>
+  <div class="col-sm-5"><a href="https://gum.co/markdownguide?wanted=true"><img src="/assets/images/book-cover.jpg" class="img-fluid float-center" style="width: 95%" alt="Halaman sampul buku Markdown Guide"></a></div>
 </div>
 
 <div class="col d-flex justify-content-center" style="padding-top: 30px;">
   <div class="card text-center" style="width: 75%">
     <div class="card-body">
-      <h5 class="card-title no-anchor text-center" style="padding-top: 0;"><small class="text-muted">Read by professionals working at:</small></h5>
+      <h5 class="card-title no-anchor text-center" style="padding-top: 0;"><small class="text-muted">Dibaca oleh para profesional yang bekerja di:</small></h5>
       <img src="/assets/images/logos/apple.svg" style="padding-right: 2em;" alt="Apple logo">
       <img src="/assets/images/logos/google.svg" style="padding-top: .25em; padding-right: 2em;" alt="Google logo">
       <img src="/assets/images/logos/dropbox.svg" style="padding-top: .15em; padding-right: 2em;" alt="Dropbox logo">
@@ -40,8 +40,8 @@ description: "Belajar Markdown dalam 60 halaman. Buku Panduan Markdown ini memua
   </div>
 </div>
 
-<h2 class="no-anchor text-center" style="padding-top: 60px;">Take your Markdown skills to the next level.</h2>
-<p class="lead text-center" style="padding-bottom:20px;">Master the power of Markdown and take full control of the syntax.</p>
+<h2 class="no-anchor text-center" style="padding-top: 60px;">Tingkatkan kemampuan Markdown Anda ke tingkat berikutnya.</h2>
+<p class="lead text-center" style="padding-bottom:20px;">Kuasai seluruh kemampuan Markdown dan ambil kendali penuh sintaks-sintaksnya.</p>
 
 <div class="container">
   <div class="row">
@@ -74,7 +74,7 @@ description: "Belajar Markdown dalam 60 halaman. Buku Panduan Markdown ini memua
   </div>
 </div>
 
-<h2 class="no-anchor text-center" style="padding-top:70px; padding-bottom:10px;">What readers are saying.</h2>
+<h2 class="no-anchor text-center" style="padding-top:70px; padding-bottom:10px;">Komentar para pembaca.</h2>
 
 <blockquote class="blockquote">
   <p class="mb-0"><em>The Markdown Guide</em> is hands-down the best Markdown reference.</p>
@@ -109,12 +109,12 @@ description: "Belajar Markdown dalam 60 halaman. Buku Panduan Markdown ini memua
 <h2 class="no-anchor text-center">100% satisfaction guaranteed.</h2>
 <p class="lead text-center" style="padding-bottom:10px;">If you're not completely satisfied with <em>The Markdown Guide</em>, I'll refund your money, no questions asked.</p>
 
-<center><a class="btn btn-success btn-lg" style="margin-right:20px; margin-top:5px;" href="https://gum.co/markdownguide?wanted=true">Buy now for $9.99</a></center>
+<center><a class="btn btn-success btn-lg" style="margin-right:20px; margin-top:5px;" href="https://gum.co/markdownguide?wanted=true">Beli sekarang seharga $9.99</a></center>
 
 <div class="container" style="padding-top:80px;">
   <div class="row">
     <div class="col-sm-6">
-      <h3 class="no-anchor" style="padding-bottom:10px;">About the Author</h3>
+      <h3 class="no-anchor" style="padding-bottom:10px;">Tentang penulis aslinya</h3>
       <p class="lead">Matt Cone is a technical writer at <a href="https://www.fastly.com">Fastly</a>. He has experience creating documentation for organizations like Linode and the U.S. Department of Health and Human Services. Matt's first book, <em><a href="https://www.amazon.com/Master-Your-Mac-Simple-Customize/dp/1593274068/">Master Your Mac</a></em>, was published by No Starch Press. To get in touch with Matt, visit <a href="https://www.mattcone.com">https://www.mattcone.com</a>.</p>
     </div>
     <div class="col-sm-6 text-center">
